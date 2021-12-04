@@ -1,0 +1,7 @@
+#ifndef NUMMFCPP_H
+#define NUMMFCPP_H
+
+#include "numMFcpp_bits/binModel01.hpp"
+#include "numMFcpp_bits/options01.hpp"
+
+#endif
