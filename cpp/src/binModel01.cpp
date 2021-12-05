@@ -36,6 +36,19 @@ void getDataInputs(double &S0, double &U, double &D, double &R)
     std::cin >> R;
 }
 
+void getDataInputs(double *S0, double *U, double *D, double *R)
+{
+    std::cout << "===Enter data===" << std::endl;
+    std::cout << "S0 >> ";
+    std::cin >> *S0;
+    std::cout << "U >> ";
+    std::cin >> *U;
+    std::cout << "D >> ";
+    std::cin >> *D;
+    std::cout << "R >> ";
+    std::cin >> *R;
+}
+
 bool isInvalidData(double S0, double U, double D, double R)
 {
 

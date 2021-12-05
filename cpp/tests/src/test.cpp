@@ -291,6 +291,139 @@ void exercice06()
     }
 }
 
+void main06()
+{
+    double S0(0), U(0), D(0), R(0);
+    double K(0);
+    int N(0);
+
+    getDataInputs(S0, U, D, R);
+
+    bool data = isInvalidData(S0, U, D, R);
+    bool arbitrage = isArbitrage(U, D, R);
+
+    if (data || arbitrage)
+    {
+        std::cout << "Data are wrong or arbitrage exists" << std::endl;
+        return;
+    }
+
+    std::cout << "Data checked" << std::endl;
+    std::cout << "Get call option data" << std::endl;
+
+    getDataInputs(&N, &K);
+
+    bool call = isValid(N, K);
+
+    if (!call)
+    {
+        std::cout << "Invalid data for call option" << std::endl;
+        return;
+    }
+
+    std::cout << "European call option price :" << std::endl;
+    std::cout << priceByCRR2(S0, U, D, R, N, K) << std::endl;
+    return;
+}
+
+void mySwap(double *a, double *b)
+{
+    double t(0);
+    t = *a;
+    *a = *b;
+    *b = t;
+}
+
+void bubblesort2(double *a, int N)
+{
+    //performing bubble sort on array of doubles
+    for (int i = 1; i < N; i++)
+    {
+        for (int j = 1; j <= N - i; j++)
+        {
+            if (a[j - 1] > a[j])
+            {
+                mySwap(a + j - 1, a + j);
+            }
+        }
+    }
+
+    return;
+}
+
+void exercice07()
+{
+    std::cout << "Testing mySwap function" << std::endl;
+    double a(0), b(0);
+
+    std::cout << "a>>";
+    std::cin >> a;
+    std::cout << "b>>";
+    std::cin >> b;
+
+    std::cout << "Before swap:" << std::endl;
+    std::cout << "a=" << a << std::endl;
+    std::cout << "b=" << b << std::endl;
+
+    mySwap(&a, &b);
+
+    std::cout << "After swap:" << std::endl;
+    std::cout << "a=" << a << std::endl;
+    std::cout << "b=" << b << std::endl;
+
+    std::cout << "Testing bubble sort with pointers" << std::endl;
+
+    double arr[] = {0.9, 0.12, 0.34, 9.12, 5.6, 7.8};
+    std::cout << "array:" << std::endl;
+    for (int i = 0; i < 6; i++)
+    {
+        std::cout << arr[i] << " " << std::endl;
+    }
+
+    bubblesort(arr, 6);
+    std::cout << "array sorted:" << std::endl;
+    for (int i = 0; i < 6; i++)
+    {
+        std::cout << arr[i] << " " << std::endl;
+    }
+}
+
+void exercice08()
+{
+
+    double S0(0), U(0), D(0), R(0);
+    double K(0);
+    int N(0);
+
+    getDataInputs(&S0, &U, &D, &R);
+
+    bool data = isInvalidData(S0, U, D, R);
+    bool arbitrage = isArbitrage(U, D, R);
+
+    if (data || arbitrage)
+    {
+        std::cout << "Data are wrong or arbitrage exists" << std::endl;
+        return;
+    }
+
+    std::cout << "Data checked" << std::endl;
+    std::cout << "Get call option data" << std::endl;
+
+    getDataInputs(&N, &K);
+
+    bool call = isValid(N, K);
+
+    if (!call)
+    {
+        std::cout << "Invalid data for call option" << std::endl;
+        return;
+    }
+
+    std::cout << "European call option price :" << std::endl;
+    std::cout << priceByCRR2(S0, U, D, R, N, K) << std::endl;
+    return;
+}
+
 int main()
 {
     // main01();
@@ -301,7 +434,10 @@ int main()
     // main04();
     //main05();
     //exercice04_05();
-    //exercice06cd();
+    //exercice06();
+    // main06();
+    //exercice07();
+    exercice08();
 
     return 0;
 }

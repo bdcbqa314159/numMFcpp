@@ -1,9 +1,8 @@
-CMakeFiles/test.dir/src/test.cpp.o: \
-  /Users/bernardocohen/repos/numMFcpp/cpp/tests/src/test.cpp \
-  /usr/local/include/numMFcpp \
-  /usr/local/include/numMFcpp_bits/binModel01.hpp \
-  /usr/local/include/numMFcpp_bits/options01.hpp \
-  /usr/local/include/numMFcpp_bits/options02.hpp \
+CMakeFiles/numMFcpp.dir/src/options02.cpp.o: \
+  /Users/bernardocohen/repos/numMFcpp/cpp/src/options02.cpp \
+  /Users/bernardocohen/repos/numMFcpp/cpp/src/../include/numMFcpp_bits/options01.hpp \
+  /Users/bernardocohen/repos/numMFcpp/cpp/src/../include/numMFcpp_bits/options02.hpp \
+  /Users/bernardocohen/repos/numMFcpp/cpp/src/../include/numMFcpp_bits/binModel01.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/pthread.h \
