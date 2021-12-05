@@ -390,7 +390,6 @@ void exercice07()
 
 void exercice08()
 {
-
     double S0(0), U(0), D(0), R(0);
     double K(0);
     int N(0);
@@ -424,6 +423,149 @@ void exercice08()
     return;
 }
 
+void main07()
+{
+
+    double S0(0), U(0), D(0), R(0);
+    double K(0);
+    int N(0);
+
+    getDataInputs(&S0, &U, &D, &R);
+
+    bool data = isInvalidData(S0, U, D, R);
+    bool arbitrage = isArbitrage(U, D, R);
+
+    if (data || arbitrage)
+    {
+        std::cout << "Data are wrong or arbitrage exists" << std::endl;
+        return;
+    }
+
+    std::cout << "Data checked" << std::endl;
+    std::cout << "Get call option data" << std::endl;
+
+    getDataInputs(&N, &K);
+
+    bool call = isValid(N, K);
+
+    if (!call)
+    {
+        std::cout << "Invalid data for call option" << std::endl;
+        return;
+    }
+
+    std::cout << "European call option price :" << std::endl;
+    std::cout << priceByCRR(S0, U, D, R, N, K, callPayoff) << std::endl;
+
+    std::cout << "European put option price :" << std::endl;
+    std::cout << priceByCRR(S0, U, D, R, N, K, putPayoff) << std::endl;
+
+    return;
+}
+
+void exercice09_10()
+{
+
+    double S0(0), U(0), D(0), R(0);
+    double K(0);
+    int N(0);
+
+    getDataInputs(&S0, &U, &D, &R);
+
+    bool data = isInvalidData(S0, U, D, R);
+    bool arbitrage = isArbitrage(U, D, R);
+
+    if (data || arbitrage)
+    {
+        std::cout << "Data are wrong or arbitrage exists" << std::endl;
+        return;
+    }
+
+    std::cout << "Data checked" << std::endl;
+    std::cout << "Get call option data" << std::endl;
+
+    getDataInputs(&N, &K);
+
+    bool call = isValid(N, K);
+
+    if (!call)
+    {
+        std::cout << "Invalid data for call option" << std::endl;
+        return;
+    }
+
+    std::cout << "European Digital call option price :" << std::endl;
+    std::cout << priceByCRR(S0, U, D, R, N, K, callDigitalPayoff) << std::endl;
+
+    std::cout << "European Digital put option price :" << std::endl;
+    std::cout << priceByCRR(S0, U, D, R, N, K, putDigitalPayoff) << std::endl;
+
+    return;
+}
+
+void exercice11()
+{
+
+    double S0(0), U(0), D(0), R(0);
+
+    int N(0);
+    int noParams(0);
+
+    getDataInputs(&S0, &U, &D, &R);
+
+    bool data = isInvalidData(S0, U, D, R);
+    bool arbitrage = isArbitrage(U, D, R);
+
+    if (data || arbitrage)
+    {
+        std::cout << "Data are wrong or arbitrage exists" << std::endl;
+        return;
+    }
+
+    std::cout << "Data checked" << std::endl;
+    std::cout << "Get call option data" << std::endl;
+
+    getDataInputs(&N, &noParams);
+    bool paramsOk = isValid(N, noParams);
+
+    if (!paramsOk)
+    {
+        std::cout << "Params not ok" << std::endl;
+        return;
+    }
+
+    double *Ks = new double[noParams];
+
+    getDataInputs(noParams, Ks);
+
+    bool strikesOk = isValid(noParams, Ks);
+
+    if (!paramsOk)
+    {
+        std::cout << "Strikes not ok" << std::endl;
+        return;
+    }
+
+    std::cout << "European Digital call option price :" << std::endl;
+    std::cout << priceByCRR(S0, U, D, R, N, Ks, callDigitalPayoff) << std::endl;
+
+    std::cout << "European Digital put option price :" << std::endl;
+    std::cout << priceByCRR(S0, U, D, R, N, Ks, putDigitalPayoff) << std::endl;
+
+    std::cout << "European call option price :" << std::endl;
+    std::cout << priceByCRR(S0, U, D, R, N, Ks, callPayoff) << std::endl;
+
+    std::cout << "European put option price :" << std::endl;
+    std::cout << priceByCRR(S0, U, D, R, N, Ks, putPayoff) << std::endl;
+
+    std::cout << "European double digital option price :" << std::endl;
+    std::cout << priceByCRR(S0, U, D, R, N, Ks, doubleDigitalPayoff) << std::endl;
+
+    delete[] Ks;
+
+    return;
+}
+
 int main()
 {
     // main01();
@@ -437,7 +579,10 @@ int main()
     //exercice06();
     // main06();
     //exercice07();
-    exercice08();
+    // exercice08();
+    // main07();
+    //exercice09_10();
+    exercice11();
 
     return 0;
 }

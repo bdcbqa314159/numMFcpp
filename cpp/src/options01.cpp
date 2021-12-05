@@ -90,5 +90,10 @@ double priceByCRRSum(double S0, double U, double D, double R, int N, double K)
 
 double callPayoff(double z, double K)
 {
-    return 1. * (z >= K);
+    return (z - K) * (z >= K);
+}
+
+double callPayoff(double z, double *K)
+{
+    return (z - *K) * (z >= *K);
 }

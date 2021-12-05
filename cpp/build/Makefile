@@ -198,6 +198,30 @@ src/binModel01.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/binModel01.cpp.s
 .PHONY : src/binModel01.cpp.s
 
+src/digitals.o: src/digitals.cpp.o
+.PHONY : src/digitals.o
+
+# target to build an object file
+src/digitals.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/digitals.cpp.o
+.PHONY : src/digitals.cpp.o
+
+src/digitals.i: src/digitals.cpp.i
+.PHONY : src/digitals.i
+
+# target to preprocess a source file
+src/digitals.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/digitals.cpp.i
+.PHONY : src/digitals.cpp.i
+
+src/digitals.s: src/digitals.cpp.s
+.PHONY : src/digitals.s
+
+# target to generate assembly for a file
+src/digitals.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/digitals.cpp.s
+.PHONY : src/digitals.cpp.s
+
 src/options01.o: src/options01.cpp.o
 .PHONY : src/options01.o
 
@@ -246,6 +270,30 @@ src/options02.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/options02.cpp.s
 .PHONY : src/options02.cpp.s
 
+src/options03.o: src/options03.cpp.o
+.PHONY : src/options03.o
+
+# target to build an object file
+src/options03.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/options03.cpp.o
+.PHONY : src/options03.cpp.o
+
+src/options03.i: src/options03.cpp.i
+.PHONY : src/options03.i
+
+# target to preprocess a source file
+src/options03.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/options03.cpp.i
+.PHONY : src/options03.cpp.i
+
+src/options03.s: src/options03.cpp.s
+.PHONY : src/options03.s
+
+# target to generate assembly for a file
+src/options03.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/options03.cpp.s
+.PHONY : src/options03.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -262,12 +310,18 @@ help:
 	@echo "... src/binModel01.o"
 	@echo "... src/binModel01.i"
 	@echo "... src/binModel01.s"
+	@echo "... src/digitals.o"
+	@echo "... src/digitals.i"
+	@echo "... src/digitals.s"
 	@echo "... src/options01.o"
 	@echo "... src/options01.i"
 	@echo "... src/options01.s"
 	@echo "... src/options02.o"
 	@echo "... src/options02.i"
 	@echo "... src/options02.s"
+	@echo "... src/options03.o"
+	@echo "... src/options03.i"
+	@echo "... src/options03.s"
 .PHONY : help
 
 

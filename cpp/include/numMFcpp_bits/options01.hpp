@@ -13,4 +13,6 @@ double callPayoff(double z, double K);
 
 int newtonSymb(int N, int n);
 
+double callPayoff(double z, double *K);
+
 #endif

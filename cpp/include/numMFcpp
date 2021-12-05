@@ -4,5 +4,7 @@
 #include "numMFcpp_bits/binModel01.hpp"
 #include "numMFcpp_bits/options01.hpp"
 #include "numMFcpp_bits/options02.hpp"
+#include "numMFcpp_bits/options03.hpp"
+#include "numMFcpp_bits/digitals.hpp"
 
 #endif

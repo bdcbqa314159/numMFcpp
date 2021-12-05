@@ -22,10 +22,14 @@ set(SOURCE_FILES
     ${PROJECT_INCLUDE_DIR}/binModel01.hpp
     ${PROJECT_INCLUDE_DIR}/options01.hpp
     ${PROJECT_INCLUDE_DIR}/options02.hpp
+    ${PROJECT_INCLUDE_DIR}/options03.hpp
+    ${PROJECT_INCLUDE_DIR}/digitals.hpp
 
     ${PROJECT_SOURCE_DIR}/binModel01.cpp
     ${PROJECT_SOURCE_DIR}/options01.cpp
     ${PROJECT_SOURCE_DIR}/options02.cpp
+    ${PROJECT_SOURCE_DIR}/options03.cpp
+    ${PROJECT_SOURCE_DIR}/digitals.cpp
 )
 
 # Set up such that XCode organizes the files correctly
