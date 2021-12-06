@@ -34,5 +34,6 @@ target_link_libraries(numMFcpp PUBLIC)
 
 install(TARGETS numMFcpp
   COMPONENT python
+  ARCHIVE DESTINATION lib
   LIBRARY DESTINATION "${PYTHON_LIBRARY_DIR}"
   )
