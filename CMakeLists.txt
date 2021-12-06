@@ -11,13 +11,13 @@ endif()
 set(CMAKE_CXX_FLAGS "-O3")
 set(CMAKE_CXX_FLAGS_RELEASE "-O3")
 
-project(advancedQFcpp)
+project(numMFcpp)
 
-include_directories("${CMAKE_SOURCE_DIR}/cpp/include/advancedQFcpp_bits")
+include_directories("${CMAKE_SOURCE_DIR}/cpp/include/numMFcpp_bits")
 include_directories("${CMAKE_SOURCE_DIR}/python")
 
 file (GLOB SOURCE_FILES "cpp/src/*.cpp")
-file (GLOB HEADER_FILES "cpp/include/advancedQFcpp/*.hpp")
+file (GLOB HEADER_FILES "cpp/include/numMFcpp_bits/*.hpp")
 file (GLOB PYTHON_FILES "python/*.cpp" "python/*.hpp")
 
 # Set up such that XCode organizes the files
