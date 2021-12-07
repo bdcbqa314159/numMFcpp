@@ -198,6 +198,30 @@ cpp/src/binModel01.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/cpp/src/binModel01.cpp.s
 .PHONY : cpp/src/binModel01.cpp.s
 
+cpp/src/binModel02.o: cpp/src/binModel02.cpp.o
+.PHONY : cpp/src/binModel02.o
+
+# target to build an object file
+cpp/src/binModel02.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/cpp/src/binModel02.cpp.o
+.PHONY : cpp/src/binModel02.cpp.o
+
+cpp/src/binModel02.i: cpp/src/binModel02.cpp.i
+.PHONY : cpp/src/binModel02.i
+
+# target to preprocess a source file
+cpp/src/binModel02.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/cpp/src/binModel02.cpp.i
+.PHONY : cpp/src/binModel02.cpp.i
+
+cpp/src/binModel02.s: cpp/src/binModel02.cpp.s
+.PHONY : cpp/src/binModel02.s
+
+# target to generate assembly for a file
+cpp/src/binModel02.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/cpp/src/binModel02.cpp.s
+.PHONY : cpp/src/binModel02.cpp.s
+
 cpp/src/digitals.o: cpp/src/digitals.cpp.o
 .PHONY : cpp/src/digitals.o
 
@@ -294,6 +318,30 @@ cpp/src/options03.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/cpp/src/options03.cpp.s
 .PHONY : cpp/src/options03.cpp.s
 
+cpp/src/options04.o: cpp/src/options04.cpp.o
+.PHONY : cpp/src/options04.o
+
+# target to build an object file
+cpp/src/options04.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/cpp/src/options04.cpp.o
+.PHONY : cpp/src/options04.cpp.o
+
+cpp/src/options04.i: cpp/src/options04.cpp.i
+.PHONY : cpp/src/options04.i
+
+# target to preprocess a source file
+cpp/src/options04.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/cpp/src/options04.cpp.i
+.PHONY : cpp/src/options04.cpp.i
+
+cpp/src/options04.s: cpp/src/options04.cpp.s
+.PHONY : cpp/src/options04.s
+
+# target to generate assembly for a file
+cpp/src/options04.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/cpp/src/options04.cpp.s
+.PHONY : cpp/src/options04.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -310,6 +358,9 @@ help:
 	@echo "... cpp/src/binModel01.o"
 	@echo "... cpp/src/binModel01.i"
 	@echo "... cpp/src/binModel01.s"
+	@echo "... cpp/src/binModel02.o"
+	@echo "... cpp/src/binModel02.i"
+	@echo "... cpp/src/binModel02.s"
 	@echo "... cpp/src/digitals.o"
 	@echo "... cpp/src/digitals.i"
 	@echo "... cpp/src/digitals.s"
@@ -322,6 +373,9 @@ help:
 	@echo "... cpp/src/options03.o"
 	@echo "... cpp/src/options03.i"
 	@echo "... cpp/src/options03.s"
+	@echo "... cpp/src/options04.o"
+	@echo "... cpp/src/options04.i"
+	@echo "... cpp/src/options04.s"
 .PHONY : help
 
 

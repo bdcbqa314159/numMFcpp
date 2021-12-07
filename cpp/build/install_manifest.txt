@@ -1,8 +1,10 @@
 /usr/local/lib/libnumMFcpp.dylib
 /usr/local/include/numMFcpp
+/usr/local/include/numMFcpp_bits/options04.hpp
 /usr/local/include/numMFcpp_bits/options02.hpp
 /usr/local/include/numMFcpp_bits/.DS_Store
 /usr/local/include/numMFcpp_bits/options03.hpp
 /usr/local/include/numMFcpp_bits/options01.hpp
 /usr/local/include/numMFcpp_bits/digitals.hpp
+/usr/local/include/numMFcpp_bits/binModel02.hpp
 /usr/local/include/numMFcpp_bits/binModel01.hpp
