@@ -160,3 +160,73 @@ double DoubDigital::payoff(double z)
 {
     return 1. * (z >= K1 && z <= K2);
 }
+
+void Butterfly::getInputData()
+{
+
+    std::cout << "===Enter data===" << std::endl;
+    std::cout << "N >> ";
+    int N(0);
+    std::cin >> N;
+    setN(N);
+    double k1(0), k2(0);
+    std::cout << "K1 >> ";
+    std::cin >> k1;
+    std::cout << "K2 >> ";
+    std::cin >> k2;
+
+    setKs(k1, k2);
+
+    if (isValidN() && isValidKs())
+    {
+        std::cout << "All good" << std::endl;
+        return;
+    }
+
+    else
+    {
+        std::cout << "ERROR - check inputs" << K1 << " " << K2 << std::endl;
+        return;
+    }
+}
+
+void Strangle::getInputData()
+{
+
+    std::cout << "===Enter data===" << std::endl;
+    std::cout << "N >> ";
+    int N(0);
+    std::cin >> N;
+    setN(N);
+    double k1(0), k2(0);
+    std::cout << "K1 >> ";
+    std::cin >> k1;
+    std::cout << "K2 >> ";
+    std::cin >> k2;
+
+    setKs(k1, k2);
+
+    if (isValidN() && isValidKs())
+    {
+        std::cout << "All good" << std::endl;
+        return;
+    }
+
+    else
+    {
+        std::cout << "ERROR - check inputs" << K1 << " " << K2 << std::endl;
+        return;
+    }
+}
+
+double Butterfly::payoff(double z)
+{
+    return (K1 - z) * (z < K1) + (z - K2) * (z > K2);
+}
+
+double Strangle::payoff(double z)
+{
+    double midK = (K1 + K2) / 2;
+
+    return (z - K1) * (z > K1 && z <= midK) + (K2 - z) * (midK < z && z < K2);
+}

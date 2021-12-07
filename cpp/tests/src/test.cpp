@@ -256,6 +256,49 @@ void main11()
     return;
 }
 
+void exercice15()
+{
+    //exercice 2.4
+
+    BinModel model;
+
+    model.getInputData();
+
+    if (model.isInvalidData() || model.isArbitrage())
+    {
+        std::cout << "ERROR - check inputs - end of interface" << std::endl;
+        return;
+    }
+
+    Butterfly butterfly;
+
+    butterfly.getInputData();
+
+    if (!butterfly.isValidN() || !butterfly.isValidKs())
+    {
+        std::cout << "ERROR - check inputs - end of interface" << std::endl;
+        return;
+    }
+
+    std::cout << "Butterfly Option price :" << std::endl;
+    std::cout << butterfly.priceByCRR(model) << std::endl;
+
+    Strangle strangle;
+
+    strangle.getInputData();
+
+    if (!strangle.isValidN() || !strangle.isValidKs())
+    {
+        std::cout << "ERROR - check inputs - end of interface" << std::endl;
+        return;
+    }
+
+    std::cout << "Strangle Option price :" << std::endl;
+    std::cout << strangle.priceByCRR(model) << std::endl;
+
+    return;
+}
+
 int main()
 {
     // main01();
@@ -281,7 +324,8 @@ int main()
     // main10();
     // exercice13();
     // exercice14();
-    main11();
+    // main11();
+    exercice15();
 
     return 0;
 }
