@@ -270,6 +270,30 @@ cpp/src/digitals.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/cpp/src/digitals.cpp.s
 .PHONY : cpp/src/digitals.cpp.s
 
+cpp/src/eurOptions.o: cpp/src/eurOptions.cpp.o
+.PHONY : cpp/src/eurOptions.o
+
+# target to build an object file
+cpp/src/eurOptions.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/cpp/src/eurOptions.cpp.o
+.PHONY : cpp/src/eurOptions.cpp.o
+
+cpp/src/eurOptions.i: cpp/src/eurOptions.cpp.i
+.PHONY : cpp/src/eurOptions.i
+
+# target to preprocess a source file
+cpp/src/eurOptions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/cpp/src/eurOptions.cpp.i
+.PHONY : cpp/src/eurOptions.cpp.i
+
+cpp/src/eurOptions.s: cpp/src/eurOptions.cpp.s
+.PHONY : cpp/src/eurOptions.s
+
+# target to generate assembly for a file
+cpp/src/eurOptions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/cpp/src/eurOptions.cpp.s
+.PHONY : cpp/src/eurOptions.cpp.s
+
 cpp/src/options01.o: cpp/src/options01.cpp.o
 .PHONY : cpp/src/options01.o
 
@@ -390,6 +414,30 @@ cpp/src/options05.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/cpp/src/options05.cpp.s
 .PHONY : cpp/src/options05.cpp.s
 
+cpp/src/options06.o: cpp/src/options06.cpp.o
+.PHONY : cpp/src/options06.o
+
+# target to build an object file
+cpp/src/options06.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/cpp/src/options06.cpp.o
+.PHONY : cpp/src/options06.cpp.o
+
+cpp/src/options06.i: cpp/src/options06.cpp.i
+.PHONY : cpp/src/options06.i
+
+# target to preprocess a source file
+cpp/src/options06.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/cpp/src/options06.cpp.i
+.PHONY : cpp/src/options06.cpp.i
+
+cpp/src/options06.s: cpp/src/options06.cpp.s
+.PHONY : cpp/src/options06.s
+
+# target to generate assembly for a file
+cpp/src/options06.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/cpp/src/options06.cpp.s
+.PHONY : cpp/src/options06.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -415,6 +463,9 @@ help:
 	@echo "... cpp/src/digitals.o"
 	@echo "... cpp/src/digitals.i"
 	@echo "... cpp/src/digitals.s"
+	@echo "... cpp/src/eurOptions.o"
+	@echo "... cpp/src/eurOptions.i"
+	@echo "... cpp/src/eurOptions.s"
 	@echo "... cpp/src/options01.o"
 	@echo "... cpp/src/options01.i"
 	@echo "... cpp/src/options01.s"
@@ -430,6 +481,9 @@ help:
 	@echo "... cpp/src/options05.o"
 	@echo "... cpp/src/options05.i"
 	@echo "... cpp/src/options05.s"
+	@echo "... cpp/src/options06.o"
+	@echo "... cpp/src/options06.i"
+	@echo "... cpp/src/options06.s"
 .PHONY : help
 
 

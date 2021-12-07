@@ -6,7 +6,7 @@
 #include "options03.hpp"
 #include "options04.hpp"
 
-class EurOption
+class EurOption_
 {
 private:
     int N;
@@ -31,18 +31,18 @@ public:
     }
 };
 
-class Call : public EurOption
+class Call_ : public EurOption_
 {
 private:
-    int K;
+    double K;
 
 public:
-    Call()
+    Call_()
     {
         setPayoff(callPayoff);
     }
 
-    int getK()
+    double getK()
     {
         return K;
     }
@@ -55,18 +55,18 @@ public:
     }
 };
 
-class Put : public EurOption
+class Put_ : public EurOption_
 {
 private:
-    int K;
+    double K;
 
 public:
-    Put()
+    Put_()
     {
         setPayoff(putPayoff);
     }
 
-    int getK()
+    double getK()
     {
         return K;
     }

@@ -270,6 +270,30 @@ src/digitals.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/digitals.cpp.s
 .PHONY : src/digitals.cpp.s
 
+src/eurOptions.o: src/eurOptions.cpp.o
+.PHONY : src/eurOptions.o
+
+# target to build an object file
+src/eurOptions.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/eurOptions.cpp.o
+.PHONY : src/eurOptions.cpp.o
+
+src/eurOptions.i: src/eurOptions.cpp.i
+.PHONY : src/eurOptions.i
+
+# target to preprocess a source file
+src/eurOptions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/eurOptions.cpp.i
+.PHONY : src/eurOptions.cpp.i
+
+src/eurOptions.s: src/eurOptions.cpp.s
+.PHONY : src/eurOptions.s
+
+# target to generate assembly for a file
+src/eurOptions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/eurOptions.cpp.s
+.PHONY : src/eurOptions.cpp.s
+
 src/options01.o: src/options01.cpp.o
 .PHONY : src/options01.o
 
@@ -390,6 +414,30 @@ src/options05.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/options05.cpp.s
 .PHONY : src/options05.cpp.s
 
+src/options06.o: src/options06.cpp.o
+.PHONY : src/options06.o
+
+# target to build an object file
+src/options06.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/options06.cpp.o
+.PHONY : src/options06.cpp.o
+
+src/options06.i: src/options06.cpp.i
+.PHONY : src/options06.i
+
+# target to preprocess a source file
+src/options06.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/options06.cpp.i
+.PHONY : src/options06.cpp.i
+
+src/options06.s: src/options06.cpp.s
+.PHONY : src/options06.s
+
+# target to generate assembly for a file
+src/options06.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/options06.cpp.s
+.PHONY : src/options06.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -415,6 +463,9 @@ help:
 	@echo "... src/digitals.o"
 	@echo "... src/digitals.i"
 	@echo "... src/digitals.s"
+	@echo "... src/eurOptions.o"
+	@echo "... src/eurOptions.i"
+	@echo "... src/eurOptions.s"
 	@echo "... src/options01.o"
 	@echo "... src/options01.i"
 	@echo "... src/options01.s"
@@ -430,6 +481,9 @@ help:
 	@echo "... src/options05.o"
 	@echo "... src/options05.i"
 	@echo "... src/options05.s"
+	@echo "... src/options06.o"
+	@echo "... src/options06.i"
+	@echo "... src/options06.s"
 .PHONY : help
 
 

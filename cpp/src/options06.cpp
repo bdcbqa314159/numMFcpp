@@ -1,24 +1,19 @@
-#include "../include/numMFcpp_bits/options01.hpp"
-#include "../include/numMFcpp_bits/options02.hpp"
-#include "../include/numMFcpp_bits/options03.hpp"
-#include "../include/numMFcpp_bits/options04.hpp"
-#include "../include/numMFcpp_bits/options05.hpp"
+#include "../include/numMFcpp_bits/options06.hpp"
 #include "../include/numMFcpp_bits/binModel02.hpp"
 
 #include <iostream>
 #include <cmath>
 
-double EurOption_::priceByCRR(BinModel model, double K)
+double EurOption::priceByCRR(BinModel model)
 {
     if (isValidN())
     {
-
         double q = model.riskNeutProb();
         double Price[N + 1];
 
         for (int i = 0; i <= N; i++)
         {
-            *(Price + i) = payoff(model.S(N, i), K);
+            *(Price + i) = payoff(model.S(N, i));
         }
 
         for (int n = N - 1; n >= 0; n--)
@@ -39,7 +34,7 @@ double EurOption_::priceByCRR(BinModel model, double K)
     }
 }
 
-void Call_::getInputData()
+void Call::getInputData()
 {
     std::cout << "===Enter data===" << std::endl;
     std::cout << "N >> ";
@@ -62,7 +57,7 @@ void Call_::getInputData()
     }
 }
 
-void Put_::getInputData()
+void Put::getInputData()
 {
     std::cout << "===Enter data===" << std::endl;
     std::cout << "N >> ";
@@ -83,4 +78,14 @@ void Put_::getInputData()
         std::cout << "ERROR - check inputs" << std::endl;
         return;
     }
+}
+
+double Call::payoff(double z)
+{
+    return (z - K) * (z > K);
+}
+
+double Put::payoff(double z)
+{
+    return (K - z) * (z < K);
 }

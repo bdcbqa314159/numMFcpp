@@ -52,10 +52,10 @@ double priceByCRR(double S0, double U, double D, double R, int N, double *Ks, do
 
 double putPayoff(double z, double K)
 {
-    return (K - z) * (z >= K);
+    return (K - z) * (z < K);
 }
 
 double putPayoff(double z, double *K)
 {
-    return (*K - z) * (z >= *K);
+    return (*K - z) * (z < *K);
 }

@@ -1,17 +1,8 @@
-CMakeFiles/test.dir/src/test.cpp.o: \
-  /Users/bernardocohen/repos/numMFcpp/cpp/tests/src/test.cpp \
-  /usr/local/include/numMFcpp \
-  /usr/local/include/numMFcpp_bits/binModel01.hpp \
-  /usr/local/include/numMFcpp_bits/options01.hpp \
-  /usr/local/include/numMFcpp_bits/options02.hpp \
-  /usr/local/include/numMFcpp_bits/options03.hpp \
-  /usr/local/include/numMFcpp_bits/digitals.hpp \
-  /usr/local/include/numMFcpp_bits/binModel02.hpp \
-  /usr/local/include/numMFcpp_bits/options04.hpp \
-  /usr/local/include/numMFcpp_bits/options05.hpp \
-  /usr/local/include/numMFcpp_bits/defInt.hpp \
-  /usr/local/include/numMFcpp_bits/options06.hpp \
-  /usr/local/include/numMFcpp_bits/eurOptions.hpp \
+CMakeFiles/numMFcpp.dir/src/eurOptions.cpp.o: \
+  /Users/bernardocohen/repos/numMFcpp/cpp/src/eurOptions.cpp \
+  /Users/bernardocohen/repos/numMFcpp/cpp/src/../include/numMFcpp_bits/eurOptions.hpp \
+  /Users/bernardocohen/repos/numMFcpp/cpp/include/numMFcpp_bits/options06.hpp \
+  /Users/bernardocohen/repos/numMFcpp/cpp/include/numMFcpp_bits/binModel02.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/pthread.h \
@@ -237,5 +228,4 @@ CMakeFiles/test.dir/src/test.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bit_reference \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cmath \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/math.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/math.h \
-  /Users/bernardocohen/repos/numMFcpp/cpp/tests/src/chapter1.cpp
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/math.h

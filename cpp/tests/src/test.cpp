@@ -51,7 +51,7 @@ void main09()
         return;
     }
 
-    Call callOption;
+    Call_ callOption;
 
     callOption.getInputData();
 
@@ -64,7 +64,7 @@ void main09()
     std::cout << "European call option price :" << std::endl;
     std::cout << callOption.priceByCRR(model, callOption.getK()) << std::endl;
 
-    Put putOption;
+    Put_ putOption;
 
     putOption.getInputData();
 
@@ -96,6 +96,166 @@ void exercice12()
     std::cout << myInt.BySimpson(1000) << std::endl;
 }
 
+void main10()
+{
+    BinModel model;
+
+    model.getInputData();
+
+    if (model.isInvalidData() || model.isArbitrage())
+    {
+        std::cout << "ERROR - check inputs - end of interface" << std::endl;
+        return;
+    }
+
+    Call callOption;
+
+    callOption.getInputData();
+
+    if (!callOption.isValidN() || !callOption.isValidK())
+    {
+        std::cout << "ERROR - check inputs - end of interface" << std::endl;
+        return;
+    }
+
+    std::cout << "European call option price :" << std::endl;
+    std::cout << callOption.priceByCRR(model) << std::endl;
+
+    Put putOption;
+
+    putOption.getInputData();
+
+    if (!putOption.isValidN() || !putOption.isValidK())
+    {
+        std::cout << "ERROR - check inputs - end of interface" << std::endl;
+        return;
+    }
+
+    std::cout << "European put option price :" << std::endl;
+    std::cout << putOption.priceByCRR(model) << std::endl;
+
+    return;
+}
+
+void exercice13()
+{
+    //exercice 2.2
+
+    BinModel model;
+
+    model.getInputData();
+
+    if (model.isInvalidData() || model.isArbitrage())
+    {
+        std::cout << "ERROR - check inputs - end of interface" << std::endl;
+        return;
+    }
+
+    BullSpread bull;
+
+    bull.getInputData();
+
+    if (!bull.isValidN() || !bull.isValidKs())
+    {
+        std::cout << "ERROR - check inputs - end of interface" << std::endl;
+        return;
+    }
+
+    std::cout << "Bull Spread price :" << std::endl;
+    std::cout << bull.priceByCRR(model) << std::endl;
+
+    BearSpread bear;
+
+    bear.getInputData();
+
+    if (!bear.isValidN() || !bear.isValidKs())
+    {
+        std::cout << "ERROR - check inputs - end of interface" << std::endl;
+        return;
+    }
+
+    std::cout << "Bear Spread price :" << std::endl;
+    std::cout << bear.priceByCRR(model) << std::endl;
+
+    return;
+}
+
+//Aim: interface of the virtual class NumInt and test with the function we want :)
+class Test : public NumInt
+{
+public:
+    Test(double a, double b) : NumInt(a, b)
+    {
+    }
+    double f(double x)
+    {
+        return exp(x);
+    }
+};
+
+void exercice14()
+{
+    //exercice 2.3
+
+    Test myInt(0, 1);
+    std::cout << myInt.ByTrapezoid(1000) << std::endl;
+    std::cout << myInt.BySimpson(1000) << std::endl;
+}
+
+void main11()
+{
+    BinModel model;
+
+    model.getInputData();
+
+    if (model.isInvalidData() || model.isArbitrage())
+    {
+        std::cout << "ERROR - check inputs - end of interface" << std::endl;
+        return;
+    }
+
+    Call callOption;
+
+    callOption.getInputData();
+
+    if (!callOption.isValidN() || !callOption.isValidK())
+    {
+        std::cout << "ERROR - check inputs - end of interface" << std::endl;
+        return;
+    }
+
+    std::cout << "European call option price :" << std::endl;
+    std::cout << callOption.priceByCRR(model) << std::endl;
+
+    Put putOption;
+
+    putOption.getInputData();
+
+    if (!putOption.isValidN() || !putOption.isValidK())
+    {
+        std::cout << "ERROR - check inputs - end of interface" << std::endl;
+        return;
+    }
+
+    std::cout << "European put option price :" << std::endl;
+    std::cout << putOption.priceByCRR(model) << std::endl;
+
+    DoubDigital dDOption;
+
+    dDOption.getInputData();
+
+    if (!dDOption.isValidN() || !dDOption.isValidKs())
+    {
+        std::cout << "ERROR - check inputs - end of interface" << std::endl;
+        return;
+    }
+
+    std::cout << "Double Digital option price :" << std::endl;
+    std::cout << dDOption.priceByCRR(model) << std::endl;
+
+    return;
+}
+
 int main()
 {
     // main01();
@@ -117,7 +277,11 @@ int main()
     std::cout << "Chapter 2 :)" << std::endl;
     //main08();
     //main09();
-    exercice12();
+    // exercice12();
+    // main10();
+    // exercice13();
+    // exercice14();
+    main11();
 
     return 0;
 }
