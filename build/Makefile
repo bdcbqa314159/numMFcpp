@@ -222,6 +222,30 @@ cpp/src/binModel02.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/cpp/src/binModel02.cpp.s
 .PHONY : cpp/src/binModel02.cpp.s
 
+cpp/src/defInt.o: cpp/src/defInt.cpp.o
+.PHONY : cpp/src/defInt.o
+
+# target to build an object file
+cpp/src/defInt.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/cpp/src/defInt.cpp.o
+.PHONY : cpp/src/defInt.cpp.o
+
+cpp/src/defInt.i: cpp/src/defInt.cpp.i
+.PHONY : cpp/src/defInt.i
+
+# target to preprocess a source file
+cpp/src/defInt.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/cpp/src/defInt.cpp.i
+.PHONY : cpp/src/defInt.cpp.i
+
+cpp/src/defInt.s: cpp/src/defInt.cpp.s
+.PHONY : cpp/src/defInt.s
+
+# target to generate assembly for a file
+cpp/src/defInt.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/cpp/src/defInt.cpp.s
+.PHONY : cpp/src/defInt.cpp.s
+
 cpp/src/digitals.o: cpp/src/digitals.cpp.o
 .PHONY : cpp/src/digitals.o
 
@@ -385,6 +409,9 @@ help:
 	@echo "... cpp/src/binModel02.o"
 	@echo "... cpp/src/binModel02.i"
 	@echo "... cpp/src/binModel02.s"
+	@echo "... cpp/src/defInt.o"
+	@echo "... cpp/src/defInt.i"
+	@echo "... cpp/src/defInt.s"
 	@echo "... cpp/src/digitals.o"
 	@echo "... cpp/src/digitals.i"
 	@echo "... cpp/src/digitals.s"

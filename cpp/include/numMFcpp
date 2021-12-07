@@ -9,5 +9,6 @@
 #include "numMFcpp_bits/binModel02.hpp"
 #include "numMFcpp_bits/options04.hpp"
 #include "numMFcpp_bits/options05.hpp"
+#include "numMFcpp_bits/defInt.hpp"
 
 #endif

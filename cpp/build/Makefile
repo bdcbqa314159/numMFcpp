@@ -222,6 +222,30 @@ src/binModel02.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/binModel02.cpp.s
 .PHONY : src/binModel02.cpp.s
 
+src/defInt.o: src/defInt.cpp.o
+.PHONY : src/defInt.o
+
+# target to build an object file
+src/defInt.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/defInt.cpp.o
+.PHONY : src/defInt.cpp.o
+
+src/defInt.i: src/defInt.cpp.i
+.PHONY : src/defInt.i
+
+# target to preprocess a source file
+src/defInt.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/defInt.cpp.i
+.PHONY : src/defInt.cpp.i
+
+src/defInt.s: src/defInt.cpp.s
+.PHONY : src/defInt.s
+
+# target to generate assembly for a file
+src/defInt.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/defInt.cpp.s
+.PHONY : src/defInt.cpp.s
+
 src/digitals.o: src/digitals.cpp.o
 .PHONY : src/digitals.o
 
@@ -385,6 +409,9 @@ help:
 	@echo "... src/binModel02.o"
 	@echo "... src/binModel02.i"
 	@echo "... src/binModel02.s"
+	@echo "... src/defInt.o"
+	@echo "... src/defInt.i"
+	@echo "... src/defInt.s"
 	@echo "... src/digitals.o"
 	@echo "... src/digitals.i"
 	@echo "... src/digitals.s"

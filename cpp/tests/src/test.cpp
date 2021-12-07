@@ -80,6 +80,22 @@ void main09()
     return;
 }
 
+double f(double x)
+{
+    //put the function here
+    // return pow(x, 2);
+    return exp(x);
+}
+
+void exercice12()
+{
+    //exercice 2.1
+
+    DefInt myInt(0, 1, f);
+    std::cout << myInt.ByTrapezoid(1000) << std::endl;
+    std::cout << myInt.BySimpson(1000) << std::endl;
+}
+
 int main()
 {
     // main01();
@@ -100,7 +116,8 @@ int main()
 
     std::cout << "Chapter 2 :)" << std::endl;
     //main08();
-    main09();
+    //main09();
+    exercice12();
 
     return 0;
 }

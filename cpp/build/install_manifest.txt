@@ -7,5 +7,6 @@
 /usr/local/include/numMFcpp_bits/options03.hpp
 /usr/local/include/numMFcpp_bits/options01.hpp
 /usr/local/include/numMFcpp_bits/digitals.hpp
+/usr/local/include/numMFcpp_bits/defInt.hpp
 /usr/local/include/numMFcpp_bits/binModel02.hpp
 /usr/local/include/numMFcpp_bits/binModel01.hpp
