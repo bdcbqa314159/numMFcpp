@@ -13,6 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/numMFcpp.dir/src/options03.cpp.o.d"
   "CMakeFiles/numMFcpp.dir/src/options04.cpp.o"
   "CMakeFiles/numMFcpp.dir/src/options04.cpp.o.d"
+  "CMakeFiles/numMFcpp.dir/src/options05.cpp.o"
+  "CMakeFiles/numMFcpp.dir/src/options05.cpp.o.d"
   "libnumMFcpp.dylib"
   "libnumMFcpp.pdb"
 )

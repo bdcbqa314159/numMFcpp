@@ -12,7 +12,7 @@ void main08()
 
     if (model.isInvalidData() || model.isArbitrage())
     {
-        std::cout << "ERROR - check inputs";
+        std::cout << "ERROR - check inputs - end of interface" << std::endl;
         return;
     }
     double K(0);
@@ -39,6 +39,47 @@ void main08()
     return;
 }
 
+void main09()
+{
+    BinModel model;
+
+    model.getInputData();
+
+    if (model.isInvalidData() || model.isArbitrage())
+    {
+        std::cout << "ERROR - check inputs - end of interface" << std::endl;
+        return;
+    }
+
+    Call callOption;
+
+    callOption.getInputData();
+
+    if (!callOption.isValidN() || !callOption.isValidK())
+    {
+        std::cout << "ERROR - check inputs - end of interface" << std::endl;
+        return;
+    }
+
+    std::cout << "European call option price :" << std::endl;
+    std::cout << callOption.priceByCRR(model, callOption.getK()) << std::endl;
+
+    Put putOption;
+
+    putOption.getInputData();
+
+    if (!putOption.isValidN() || !putOption.isValidK())
+    {
+        std::cout << "ERROR - check inputs - end of interface" << std::endl;
+        return;
+    }
+
+    std::cout << "European put option price :" << std::endl;
+    std::cout << putOption.priceByCRR(model, putOption.getK()) << std::endl;
+
+    return;
+}
+
 int main()
 {
     // main01();
@@ -57,7 +98,9 @@ int main()
     //exercice09_10();
     // exercice11();
 
-    main08();
+    std::cout << "Chapter 2 :)" << std::endl;
+    //main08();
+    main09();
 
     return 0;
 }

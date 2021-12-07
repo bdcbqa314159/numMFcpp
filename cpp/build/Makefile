@@ -342,6 +342,30 @@ src/options04.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/options04.cpp.s
 .PHONY : src/options04.cpp.s
 
+src/options05.o: src/options05.cpp.o
+.PHONY : src/options05.o
+
+# target to build an object file
+src/options05.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/options05.cpp.o
+.PHONY : src/options05.cpp.o
+
+src/options05.i: src/options05.cpp.i
+.PHONY : src/options05.i
+
+# target to preprocess a source file
+src/options05.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/options05.cpp.i
+.PHONY : src/options05.cpp.i
+
+src/options05.s: src/options05.cpp.s
+.PHONY : src/options05.s
+
+# target to generate assembly for a file
+src/options05.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/options05.cpp.s
+.PHONY : src/options05.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -376,6 +400,9 @@ help:
 	@echo "... src/options04.o"
 	@echo "... src/options04.i"
 	@echo "... src/options04.s"
+	@echo "... src/options05.o"
+	@echo "... src/options05.i"
+	@echo "... src/options05.s"
 .PHONY : help
 
 

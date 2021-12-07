@@ -1,6 +1,7 @@
 #include "../include/numMFcpp_bits/options01.hpp"
 #include "../include/numMFcpp_bits/options02.hpp"
 #include "../include/numMFcpp_bits/options03.hpp"
+#include "../include/numMFcpp_bits/options04.hpp"
 #include "../include/numMFcpp_bits/binModel02.hpp"
 
 #include <iostream>

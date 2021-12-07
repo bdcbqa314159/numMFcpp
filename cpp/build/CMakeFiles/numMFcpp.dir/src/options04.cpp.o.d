@@ -3,6 +3,8 @@ CMakeFiles/numMFcpp.dir/src/options04.cpp.o: \
   /Users/bernardocohen/repos/numMFcpp/cpp/src/../include/numMFcpp_bits/options01.hpp \
   /Users/bernardocohen/repos/numMFcpp/cpp/src/../include/numMFcpp_bits/options02.hpp \
   /Users/bernardocohen/repos/numMFcpp/cpp/src/../include/numMFcpp_bits/options03.hpp \
+  /Users/bernardocohen/repos/numMFcpp/cpp/src/../include/numMFcpp_bits/options04.hpp \
+  /Users/bernardocohen/repos/numMFcpp/cpp/include/numMFcpp_bits/binModel02.hpp \
   /Users/bernardocohen/repos/numMFcpp/cpp/src/../include/numMFcpp_bits/binModel02.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__config \
