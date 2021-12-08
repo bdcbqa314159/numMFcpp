@@ -15,6 +15,7 @@ CMakeFiles/test.dir/src/test.cpp.o
  /usr/local/include/numMFcpp_bits/defInt.hpp
  /usr/local/include/numMFcpp_bits/options06.hpp
  /usr/local/include/numMFcpp_bits/eurOptions.hpp
+ /usr/local/include/numMFcpp_bits/options07.hpp
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iostream
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__config
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/pthread.h
@@ -242,4 +243,5 @@ CMakeFiles/test.dir/src/test.cpp.o
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/math.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/math.h
  /Users/bernardocohen/repos/numMFcpp/cpp/tests/src/chapter1.cpp
+ /Users/bernardocohen/repos/numMFcpp/cpp/tests/src/chapter2.cpp
 

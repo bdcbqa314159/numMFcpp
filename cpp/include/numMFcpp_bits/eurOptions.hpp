@@ -3,7 +3,7 @@
 
 #include "options06.hpp"
 
-class DigitCall : public EurOption
+class DigitCall : public EurOption2
 {
 private:
     double K;
@@ -24,7 +24,7 @@ public:
     }
 };
 
-class DigitPut : public EurOption
+class DigitPut : public EurOption2
 {
 private:
     int K;
@@ -50,7 +50,7 @@ public:
     }
 };
 
-class BullSpread : public EurOption
+class BullSpread : public EurOption2
 {
 private:
     double K1;
@@ -83,7 +83,7 @@ public:
     }
 };
 
-class BearSpread : public EurOption
+class BearSpread : public EurOption2
 {
 private:
     double K1;
@@ -116,7 +116,7 @@ public:
     }
 };
 
-class DoubDigital : public EurOption
+class DoubDigital : public EurOption2
 {
 private:
     double K1;
@@ -149,7 +149,7 @@ public:
     }
 };
 
-class Strangle : public EurOption
+class Strangle : public EurOption2
 {
 private:
     double K1;
@@ -182,7 +182,7 @@ public:
     }
 };
 
-class Butterfly : public EurOption
+class Butterfly : public EurOption2
 {
 private:
     double K1;

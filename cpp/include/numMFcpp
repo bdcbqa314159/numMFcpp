@@ -12,5 +12,6 @@
 #include "numMFcpp_bits/defInt.hpp"
 #include "numMFcpp_bits/options06.hpp"
 #include "numMFcpp_bits/eurOptions.hpp"
+#include "numMFcpp_bits/options07.hpp"
 
 #endif
