@@ -31,6 +31,7 @@ set(SOURCE_FILES
     ${PROJECT_INCLUDE_DIR}/options06.hpp
     ${PROJECT_INCLUDE_DIR}/eurOptions.hpp
     ${PROJECT_INCLUDE_DIR}/options07.hpp
+    ${PROJECT_INCLUDE_DIR}/options08.hpp
     
     ${PROJECT_SOURCE_DIR}/binModel01.cpp
     ${PROJECT_SOURCE_DIR}/options01.cpp
@@ -44,6 +45,7 @@ set(SOURCE_FILES
     ${PROJECT_SOURCE_DIR}/options06.cpp
     ${PROJECT_SOURCE_DIR}/eurOptions.cpp
     ${PROJECT_SOURCE_DIR}/options07.cpp
+    ${PROJECT_SOURCE_DIR}/options08.cpp
 )
 
 # Set up such that XCode organizes the files correctly

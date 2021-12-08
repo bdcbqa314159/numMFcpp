@@ -1,15 +1,16 @@
-#include "../include/numMFcpp_bits/options07.hpp"
+#include "../include/numMFcpp_bits/options08.hpp"
 #include "../include/numMFcpp_bits/binModel02.hpp"
 
 #include <iostream>
 #include <cmath>
 #include <vector>
 
-double EurOption3::priceByCRR(BinModel model)
+double EurOption::priceByCRR(BinModel model)
 {
     if (isValidN())
     {
         double q = model.riskNeutProb();
+        int N = getN();
         std::vector<double> Price(N + 1);
 
         for (int i = 0; i <= N; i++)
@@ -35,11 +36,12 @@ double EurOption3::priceByCRR(BinModel model)
     }
 }
 
-double AmOption1::priceBySnell(BinModel model)
+double AmOption::priceBySnell(BinModel model)
 {
     if (isValidN())
     {
         double q = model.riskNeutProb();
+        int N = getN();
         std::vector<double> Price(N + 1);
         double contVal(0);
 
@@ -71,14 +73,13 @@ double AmOption1::priceBySnell(BinModel model)
     }
 }
 
-void Call3::getInputData()
+void Call::getInputData()
 {
     std::cout << "===Enter data===" << std::endl;
     std::cout << "N >> ";
     int N(0);
     std::cin >> N;
-    EurOption3::setN(N);
-    AmOption1::setN(N);
+    setN(N);
     std::cout << "K >> ";
     std::cin >> K;
 
@@ -95,14 +96,13 @@ void Call3::getInputData()
     }
 }
 
-void Put3::getInputData()
+void Put::getInputData()
 {
     std::cout << "===Enter data===" << std::endl;
     std::cout << "N >> ";
     int N(0);
     std::cin >> N;
-    EurOption3::setN(N);
-    AmOption1::setN(N);
+    setN(N);
     std::cout << "K >> ";
     std::cin >> K;
 
@@ -119,12 +119,12 @@ void Put3::getInputData()
     }
 }
 
-double Call3::payoff(double z)
+double Call::payoff(double z)
 {
     return (z - K) * (z > K);
 }
 
-double Put3::payoff(double z)
+double Put::payoff(double z)
 {
     return (K - z) * (z < K);
 }

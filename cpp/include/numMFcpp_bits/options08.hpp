@@ -1,10 +1,11 @@
-#ifndef OPTIONS07_H
-#define OPTIONS07_H
+#ifndef OPTIONS08_H
+#define OPTIONS08_H
 
 #include "binModel02.hpp"
 
-class EurOption3
+class Option
 {
+
 private:
     int N;
 
@@ -12,40 +13,36 @@ public:
     void setN(int N)
     {
         this->N = N;
-    };
+    }
+
+    bool isValidN()
+    {
+        return (N > 0);
+    }
+
+    int getN()
+    {
+        return N;
+    }
 
     virtual double payoff(double z) = 0;
+};
 
+class EurOption : public virtual Option
+{
+
+public:
     double priceByCRR(BinModel model);
-
-    bool isValidN()
-    {
-        return (N > 0);
-    }
 };
 
-class AmOption1
+class AmOption : public virtual Option
 {
-private:
-    int N;
 
 public:
-    void setN(int N)
-    {
-        this->N = N;
-    };
-
-    virtual double payoff(double z) = 0;
-
     double priceBySnell(BinModel model);
-
-    bool isValidN()
-    {
-        return (N > 0);
-    }
 };
 
-class Call3 : public EurOption3, public AmOption1
+class Call : public EurOption, public AmOption
 {
 private:
     double K;
@@ -60,18 +57,13 @@ public:
 
     double payoff(double z);
 
-    bool isValidN()
-    {
-        return (AmOption1::isValidN() && EurOption3::isValidN());
-    }
-
     bool isValidK()
     {
         return (K > 0);
     }
 };
 
-class Put3 : public EurOption3, public AmOption1
+class Put : public EurOption, public AmOption
 {
 private:
     double K;
@@ -90,11 +82,6 @@ public:
     void getInputData();
 
     double payoff(double z);
-
-    bool isValidN()
-    {
-        return (AmOption1::isValidN() && EurOption3::isValidN());
-    }
 
     bool isValidK()
     {

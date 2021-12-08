@@ -17,6 +17,53 @@ void main12()
         return;
     }
 
+    Call3 callOption;
+
+    callOption.getInputData();
+
+    if (!callOption.isValidN() || !callOption.isValidK())
+    {
+        std::cout << "ERROR - check inputs - end of interface" << std::endl;
+        return;
+    }
+
+    std::cout << "European call option price :" << std::endl;
+    std::cout << callOption.priceByCRR(model) << std::endl;
+
+    std::cout << "American call option price :" << std::endl;
+    std::cout << callOption.priceBySnell(model) << std::endl;
+
+    Put3 putOption;
+
+    putOption.getInputData();
+
+    if (!putOption.isValidN() || !putOption.isValidK())
+    {
+        std::cout << "ERROR - check inputs - end of interface" << std::endl;
+        return;
+    }
+
+    std::cout << "European put option price :" << std::endl;
+    std::cout << putOption.priceByCRR(model) << std::endl;
+
+    std::cout << "American put option price :" << std::endl;
+    std::cout << putOption.priceBySnell(model) << std::endl;
+
+    return;
+}
+
+void main13()
+{
+    BinModel model;
+
+    model.getInputData();
+
+    if (model.isInvalidData() || model.isArbitrage())
+    {
+        std::cout << "ERROR - check inputs - end of interface" << std::endl;
+        return;
+    }
+
     Call callOption;
 
     callOption.getInputData();
@@ -82,7 +129,8 @@ int main()
     //exercice15();
 
     std::cout << "Chapter 3 :)" << std::endl;
-    main12();
+    // main12();
+    main13();
 
     return 0;
 }

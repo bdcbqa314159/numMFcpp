@@ -23,6 +23,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/numMFcpp.dir/cpp/src/options06.cpp.o.d"
   "CMakeFiles/numMFcpp.dir/cpp/src/options07.cpp.o"
   "CMakeFiles/numMFcpp.dir/cpp/src/options07.cpp.o.d"
+  "CMakeFiles/numMFcpp.dir/cpp/src/options08.cpp.o"
+  "CMakeFiles/numMFcpp.dir/cpp/src/options08.cpp.o.d"
   "numMFcpp.cpython-39-darwin.so"
   "numMFcpp.pdb"
 )

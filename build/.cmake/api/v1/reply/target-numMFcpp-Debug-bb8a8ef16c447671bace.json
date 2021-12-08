@@ -127,7 +127,8 @@
 				8,
 				9,
 				10,
-				11
+				11,
+				12
 			]
 		}
 	],
@@ -201,14 +202,14 @@
 				8,
 				9,
 				10,
-				11
+				11,
+				12
 			]
 		},
 		{
 			"name" : "cpp\\include\\numMFcpp_bits",
 			"sourceIndexes" : 
 			[
-				12,
 				13,
 				14,
 				15,
@@ -219,7 +220,9 @@
 				20,
 				21,
 				22,
-				23
+				23,
+				24,
+				25
 			]
 		}
 	],
@@ -299,6 +302,12 @@
 		},
 		{
 			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "cpp/src/options08.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
 			"path" : "cpp/include/numMFcpp_bits/binModel01.hpp",
 			"sourceGroupIndex" : 1
 		},
@@ -355,6 +364,11 @@
 		{
 			"backtrace" : 2,
 			"path" : "cpp/include/numMFcpp_bits/options07.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "cpp/include/numMFcpp_bits/options08.hpp",
 			"sourceGroupIndex" : 1
 		}
 	],
