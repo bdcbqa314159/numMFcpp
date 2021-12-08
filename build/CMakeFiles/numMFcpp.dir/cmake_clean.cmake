@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/numMFcpp.dir/cpp/src/binModel01.cpp.o.d"
   "CMakeFiles/numMFcpp.dir/cpp/src/binModel02.cpp.o"
   "CMakeFiles/numMFcpp.dir/cpp/src/binModel02.cpp.o.d"
+  "CMakeFiles/numMFcpp.dir/cpp/src/bsModel.cpp.o"
+  "CMakeFiles/numMFcpp.dir/cpp/src/bsModel.cpp.o.d"
   "CMakeFiles/numMFcpp.dir/cpp/src/defInt.cpp.o"
   "CMakeFiles/numMFcpp.dir/cpp/src/defInt.cpp.o.d"
   "CMakeFiles/numMFcpp.dir/cpp/src/digitals.cpp.o"
@@ -25,6 +27,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/numMFcpp.dir/cpp/src/options07.cpp.o.d"
   "CMakeFiles/numMFcpp.dir/cpp/src/options08.cpp.o"
   "CMakeFiles/numMFcpp.dir/cpp/src/options08.cpp.o.d"
+  "CMakeFiles/numMFcpp.dir/cpp/src/options09.cpp.o"
+  "CMakeFiles/numMFcpp.dir/cpp/src/options09.cpp.o.d"
   "numMFcpp.cpython-39-darwin.so"
   "numMFcpp.pdb"
 )

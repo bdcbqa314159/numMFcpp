@@ -222,6 +222,30 @@ src/binModel02.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/binModel02.cpp.s
 .PHONY : src/binModel02.cpp.s
 
+src/bsModel.o: src/bsModel.cpp.o
+.PHONY : src/bsModel.o
+
+# target to build an object file
+src/bsModel.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/bsModel.cpp.o
+.PHONY : src/bsModel.cpp.o
+
+src/bsModel.i: src/bsModel.cpp.i
+.PHONY : src/bsModel.i
+
+# target to preprocess a source file
+src/bsModel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/bsModel.cpp.i
+.PHONY : src/bsModel.cpp.i
+
+src/bsModel.s: src/bsModel.cpp.s
+.PHONY : src/bsModel.s
+
+# target to generate assembly for a file
+src/bsModel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/bsModel.cpp.s
+.PHONY : src/bsModel.cpp.s
+
 src/defInt.o: src/defInt.cpp.o
 .PHONY : src/defInt.o
 
@@ -486,6 +510,30 @@ src/options08.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/options08.cpp.s
 .PHONY : src/options08.cpp.s
 
+src/options09.o: src/options09.cpp.o
+.PHONY : src/options09.o
+
+# target to build an object file
+src/options09.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/options09.cpp.o
+.PHONY : src/options09.cpp.o
+
+src/options09.i: src/options09.cpp.i
+.PHONY : src/options09.i
+
+# target to preprocess a source file
+src/options09.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/options09.cpp.i
+.PHONY : src/options09.cpp.i
+
+src/options09.s: src/options09.cpp.s
+.PHONY : src/options09.s
+
+# target to generate assembly for a file
+src/options09.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/options09.cpp.s
+.PHONY : src/options09.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -505,6 +553,9 @@ help:
 	@echo "... src/binModel02.o"
 	@echo "... src/binModel02.i"
 	@echo "... src/binModel02.s"
+	@echo "... src/bsModel.o"
+	@echo "... src/bsModel.i"
+	@echo "... src/bsModel.s"
 	@echo "... src/defInt.o"
 	@echo "... src/defInt.i"
 	@echo "... src/defInt.s"
@@ -538,6 +589,9 @@ help:
 	@echo "... src/options08.o"
 	@echo "... src/options08.i"
 	@echo "... src/options08.s"
+	@echo "... src/options09.o"
+	@echo "... src/options09.i"
+	@echo "... src/options09.s"
 .PHONY : help
 
 

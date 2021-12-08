@@ -11,6 +11,7 @@ private:
 
 public:
     BinModel();
+    BinModel(double S0, double U, double D, double R);
     ~BinModel();
     double riskNeutProb();
     double S(int n, int i);

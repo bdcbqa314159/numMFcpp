@@ -5,7 +5,7 @@
 #include <cmath>
 #include <vector>
 
-double EurOption::priceByCRR(BinModel model)
+double EurOption4::priceByCRR(BinModel model)
 {
     if (isValidN())
     {
@@ -36,7 +36,7 @@ double EurOption::priceByCRR(BinModel model)
     }
 }
 
-double AmOption::priceBySnell(BinModel model)
+double AmOption2::priceBySnell(BinModel model)
 {
     if (isValidN())
     {
@@ -73,7 +73,7 @@ double AmOption::priceBySnell(BinModel model)
     }
 }
 
-void Call::getInputData()
+void Call4::getInputData()
 {
     std::cout << "===Enter data===" << std::endl;
     std::cout << "N >> ";
@@ -96,7 +96,7 @@ void Call::getInputData()
     }
 }
 
-void Put::getInputData()
+void Put4::getInputData()
 {
     std::cout << "===Enter data===" << std::endl;
     std::cout << "N >> ";
@@ -119,12 +119,12 @@ void Put::getInputData()
     }
 }
 
-double Call::payoff(double z)
+double Call4::payoff(double z)
 {
     return (z - K) * (z > K);
 }
 
-double Put::payoff(double z)
+double Put4::payoff(double z)
 {
     return (K - z) * (z < K);
 }

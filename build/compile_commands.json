@@ -11,6 +11,11 @@
 },
 {
   "directory": "/Users/bernardocohen/repos/numMFcpp/build",
+  "command": "/usr/bin/clang++ -DnumMFcpp_EXPORTS -I/Users/bernardocohen/repos/numMFcpp/cpp/include/numMFcpp_bits -I/Users/bernardocohen/repos/numMFcpp/python -isystem /usr/local/include -isystem /usr/local/anaconda3/include/python3.9 -O3 -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fPIC -fvisibility=hidden -std=c++17 -o CMakeFiles/numMFcpp.dir/cpp/src/bsModel.cpp.o -c /Users/bernardocohen/repos/numMFcpp/cpp/src/bsModel.cpp",
+  "file": "/Users/bernardocohen/repos/numMFcpp/cpp/src/bsModel.cpp"
+},
+{
+  "directory": "/Users/bernardocohen/repos/numMFcpp/build",
   "command": "/usr/bin/clang++ -DnumMFcpp_EXPORTS -I/Users/bernardocohen/repos/numMFcpp/cpp/include/numMFcpp_bits -I/Users/bernardocohen/repos/numMFcpp/python -isystem /usr/local/include -isystem /usr/local/anaconda3/include/python3.9 -O3 -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fPIC -fvisibility=hidden -std=c++17 -o CMakeFiles/numMFcpp.dir/cpp/src/defInt.cpp.o -c /Users/bernardocohen/repos/numMFcpp/cpp/src/defInt.cpp",
   "file": "/Users/bernardocohen/repos/numMFcpp/cpp/src/defInt.cpp"
 },
@@ -63,5 +68,10 @@
   "directory": "/Users/bernardocohen/repos/numMFcpp/build",
   "command": "/usr/bin/clang++ -DnumMFcpp_EXPORTS -I/Users/bernardocohen/repos/numMFcpp/cpp/include/numMFcpp_bits -I/Users/bernardocohen/repos/numMFcpp/python -isystem /usr/local/include -isystem /usr/local/anaconda3/include/python3.9 -O3 -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fPIC -fvisibility=hidden -std=c++17 -o CMakeFiles/numMFcpp.dir/cpp/src/options08.cpp.o -c /Users/bernardocohen/repos/numMFcpp/cpp/src/options08.cpp",
   "file": "/Users/bernardocohen/repos/numMFcpp/cpp/src/options08.cpp"
+},
+{
+  "directory": "/Users/bernardocohen/repos/numMFcpp/build",
+  "command": "/usr/bin/clang++ -DnumMFcpp_EXPORTS -I/Users/bernardocohen/repos/numMFcpp/cpp/include/numMFcpp_bits -I/Users/bernardocohen/repos/numMFcpp/python -isystem /usr/local/include -isystem /usr/local/anaconda3/include/python3.9 -O3 -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fPIC -fvisibility=hidden -std=c++17 -o CMakeFiles/numMFcpp.dir/cpp/src/options09.cpp.o -c /Users/bernardocohen/repos/numMFcpp/cpp/src/options09.cpp",
+  "file": "/Users/bernardocohen/repos/numMFcpp/cpp/src/options09.cpp"
 }
 ]

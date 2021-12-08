@@ -222,6 +222,30 @@ cpp/src/binModel02.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/cpp/src/binModel02.cpp.s
 .PHONY : cpp/src/binModel02.cpp.s
 
+cpp/src/bsModel.o: cpp/src/bsModel.cpp.o
+.PHONY : cpp/src/bsModel.o
+
+# target to build an object file
+cpp/src/bsModel.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/cpp/src/bsModel.cpp.o
+.PHONY : cpp/src/bsModel.cpp.o
+
+cpp/src/bsModel.i: cpp/src/bsModel.cpp.i
+.PHONY : cpp/src/bsModel.i
+
+# target to preprocess a source file
+cpp/src/bsModel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/cpp/src/bsModel.cpp.i
+.PHONY : cpp/src/bsModel.cpp.i
+
+cpp/src/bsModel.s: cpp/src/bsModel.cpp.s
+.PHONY : cpp/src/bsModel.s
+
+# target to generate assembly for a file
+cpp/src/bsModel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/cpp/src/bsModel.cpp.s
+.PHONY : cpp/src/bsModel.cpp.s
+
 cpp/src/defInt.o: cpp/src/defInt.cpp.o
 .PHONY : cpp/src/defInt.o
 
@@ -486,6 +510,30 @@ cpp/src/options08.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/cpp/src/options08.cpp.s
 .PHONY : cpp/src/options08.cpp.s
 
+cpp/src/options09.o: cpp/src/options09.cpp.o
+.PHONY : cpp/src/options09.o
+
+# target to build an object file
+cpp/src/options09.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/cpp/src/options09.cpp.o
+.PHONY : cpp/src/options09.cpp.o
+
+cpp/src/options09.i: cpp/src/options09.cpp.i
+.PHONY : cpp/src/options09.i
+
+# target to preprocess a source file
+cpp/src/options09.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/cpp/src/options09.cpp.i
+.PHONY : cpp/src/options09.cpp.i
+
+cpp/src/options09.s: cpp/src/options09.cpp.s
+.PHONY : cpp/src/options09.s
+
+# target to generate assembly for a file
+cpp/src/options09.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/cpp/src/options09.cpp.s
+.PHONY : cpp/src/options09.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -505,6 +553,9 @@ help:
 	@echo "... cpp/src/binModel02.o"
 	@echo "... cpp/src/binModel02.i"
 	@echo "... cpp/src/binModel02.s"
+	@echo "... cpp/src/bsModel.o"
+	@echo "... cpp/src/bsModel.i"
+	@echo "... cpp/src/bsModel.s"
 	@echo "... cpp/src/defInt.o"
 	@echo "... cpp/src/defInt.i"
 	@echo "... cpp/src/defInt.s"
@@ -538,6 +589,9 @@ help:
 	@echo "... cpp/src/options08.o"
 	@echo "... cpp/src/options08.i"
 	@echo "... cpp/src/options08.s"
+	@echo "... cpp/src/options09.o"
+	@echo "... cpp/src/options09.i"
+	@echo "... cpp/src/options09.s"
 .PHONY : help
 
 

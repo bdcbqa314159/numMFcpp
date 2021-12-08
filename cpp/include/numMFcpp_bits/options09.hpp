@@ -1,9 +1,10 @@
-#ifndef OPTIONS08_H
-#define OPTIONS08_H
+#ifndef OPTIONS09_H
+#define OPTIONS09_H
 
 #include "binModel02.hpp"
+#include "binLattice.hpp"
 
-class Option1
+class Option
 {
 
 private:
@@ -28,21 +29,23 @@ public:
     virtual double payoff(double z) = 0;
 };
 
-class EurOption4 : public virtual Option1
+class EurOption : public virtual Option
 {
 
 public:
     double priceByCRR(BinModel model);
+    // exercice16 (3.1)
+    double priceByCRR(BinModel model, BinLattice<double> &priceTree, BinLattice<double> &xTree, BinLattice<double> &yTree);
 };
 
-class AmOption2 : public virtual Option1
+class AmOption : public virtual Option
 {
 
 public:
-    double priceBySnell(BinModel model);
+    double priceBySnell(BinModel model, BinLattice<double> &priceTree, BinLattice<bool> &stoppingTree);
 };
 
-class Call4 : public EurOption4, public AmOption2
+class Call : public EurOption, public AmOption
 {
 private:
     double K;
@@ -63,7 +66,7 @@ public:
     }
 };
 
-class Put4 : public EurOption4, public AmOption2
+class Put : public EurOption, public AmOption
 {
 private:
     double K;
