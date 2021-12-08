@@ -294,6 +294,30 @@ src/digitals.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/digitals.cpp.s
 .PHONY : src/digitals.cpp.s
 
+src/eurCall.o: src/eurCall.cpp.o
+.PHONY : src/eurCall.o
+
+# target to build an object file
+src/eurCall.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/eurCall.cpp.o
+.PHONY : src/eurCall.cpp.o
+
+src/eurCall.i: src/eurCall.cpp.i
+.PHONY : src/eurCall.i
+
+# target to preprocess a source file
+src/eurCall.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/eurCall.cpp.i
+.PHONY : src/eurCall.cpp.i
+
+src/eurCall.s: src/eurCall.cpp.s
+.PHONY : src/eurCall.s
+
+# target to generate assembly for a file
+src/eurCall.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/eurCall.cpp.s
+.PHONY : src/eurCall.cpp.s
+
 src/eurOptions.o: src/eurOptions.cpp.o
 .PHONY : src/eurOptions.o
 
@@ -586,6 +610,9 @@ help:
 	@echo "... src/digitals.o"
 	@echo "... src/digitals.i"
 	@echo "... src/digitals.s"
+	@echo "... src/eurCall.o"
+	@echo "... src/eurCall.i"
+	@echo "... src/eurCall.s"
 	@echo "... src/eurOptions.o"
 	@echo "... src/eurOptions.i"
 	@echo "... src/eurOptions.s"

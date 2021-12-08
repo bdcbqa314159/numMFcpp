@@ -311,6 +311,54 @@ void exercice22()
     return;
 }
 
+class Intermediary : public EurCall
+{
+
+private:
+    double S0;
+    double r;
+    double sigma;
+
+public:
+    Intermediary(double T, double K, double S0, double r) : EurCall(T, K), S0(S0), r(r)
+    {
+    }
+
+    bool areValid()
+    {
+        return (isValid() && (S0 > 0) && (sigma > 0));
+    }
+
+    double value(double sigma)
+    {
+        return priceByBSFormula(S0, sigma, r);
+    }
+
+    double deriv(double sigma)
+    {
+        return vegaByBSFormula(S0, sigma, r);
+    }
+};
+
+void main18()
+{
+    double S0(100.), T(1.), r(0.1), K(100.), sigma;
+    Intermediary call(T, K, S0, r);
+    double epsilon(0.0001), a(0.01), b(1.), tgt(12.53), guess(0.23);
+
+    std::cout << "Solving by bissection vol implied: " << std::endl;
+    std::cout << solveByBisectionT(&call, tgt, a, b, epsilon) << std::endl;
+
+    std::cout << "Solving by Newton & Raphson vol implied: " << std::endl;
+    std::cout << solveByNRT(&call, tgt, 0.5, epsilon) << std::endl;
+
+    std::cout << "Solving by bissection vol implied: " << std::endl;
+    std::cout << solveByBisectionT(&call, tgt, a, b, epsilon) << std::endl;
+
+    std::cout << "Solving by Newton & Raphson vol implied: " << std::endl;
+    std::cout << solveByNRT(&call, tgt, 0.5, epsilon) << std::endl;
+}
+
 int main()
 {
     // std::cout << "Chapter 1 :)" << std::endl;
@@ -355,8 +403,9 @@ int main()
     // main17();
     // exercice19();
     // exercice20();
-    exercice21();
-    exercice22();
+    // exercice21();
+    // exercice22();
+    main18();
 
     return 0;
 }

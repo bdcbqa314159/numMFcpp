@@ -4,6 +4,7 @@
 /usr/local/include/numMFcpp_bits/options10.hpp
 /usr/local/include/numMFcpp_bits/options05.hpp
 /usr/local/include/numMFcpp_bits/options07.hpp
+/usr/local/include/numMFcpp_bits/eurCall.hpp
 /usr/local/include/numMFcpp_bits/options06.hpp
 /usr/local/include/numMFcpp_bits/options02.hpp
 /usr/local/include/numMFcpp_bits/.DS_Store

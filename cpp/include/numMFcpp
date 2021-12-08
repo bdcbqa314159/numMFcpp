@@ -19,5 +19,6 @@
 #include "numMFcpp_bits/bsModel.hpp"
 #include "numMFcpp_bits/solvers.hpp"
 #include "numMFcpp_bits/options10.hpp"
+#include "numMFcpp_bits/eurCall.hpp"
 
 #endif

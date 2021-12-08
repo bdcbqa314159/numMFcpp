@@ -250,11 +250,14 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
   /usr/local/include/numMFcpp_bits/bsModel.hpp \
   /usr/local/include/numMFcpp_bits/solvers.hpp \
   /usr/local/include/numMFcpp_bits/options10.hpp \
+  /usr/local/include/numMFcpp_bits/eurCall.hpp \
   ../src/chapter1.cpp \
   ../src/chapter2.cpp
 
 
 ../src/chapter2.cpp:
+
+/usr/local/include/numMFcpp_bits/eurCall.hpp:
 
 /usr/local/include/numMFcpp_bits/solvers.hpp:
 
