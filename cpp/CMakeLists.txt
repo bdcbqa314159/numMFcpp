@@ -35,6 +35,7 @@ set(SOURCE_FILES
     ${PROJECT_INCLUDE_DIR}/binLattice.hpp
     ${PROJECT_INCLUDE_DIR}/options09.hpp
     ${PROJECT_INCLUDE_DIR}/bsModel.hpp
+    ${PROJECT_INCLUDE_DIR}/solvers.hpp
     
     ${PROJECT_SOURCE_DIR}/binModel01.cpp
     ${PROJECT_SOURCE_DIR}/options01.cpp

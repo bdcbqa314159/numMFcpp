@@ -229,7 +229,8 @@
 				27,
 				28,
 				29,
-				30
+				30,
+				31
 			]
 		}
 	],
@@ -403,6 +404,11 @@
 		{
 			"backtrace" : 2,
 			"path" : "cpp/include/numMFcpp_bits/options09.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "cpp/include/numMFcpp_bits/solvers.hpp",
 			"sourceGroupIndex" : 1
 		}
 	],
