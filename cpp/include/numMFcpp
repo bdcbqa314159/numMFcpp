@@ -18,5 +18,6 @@
 #include "numMFcpp_bits/options09.hpp"
 #include "numMFcpp_bits/bsModel.hpp"
 #include "numMFcpp_bits/solvers.hpp"
+#include "numMFcpp_bits/options10.hpp"
 
 #endif

@@ -36,6 +36,7 @@ set(SOURCE_FILES
     ${PROJECT_INCLUDE_DIR}/options09.hpp
     ${PROJECT_INCLUDE_DIR}/bsModel.hpp
     ${PROJECT_INCLUDE_DIR}/solvers.hpp
+    ${PROJECT_INCLUDE_DIR}/options10.hpp
     
     ${PROJECT_SOURCE_DIR}/binModel01.cpp
     ${PROJECT_SOURCE_DIR}/options01.cpp
@@ -52,6 +53,7 @@ set(SOURCE_FILES
     ${PROJECT_SOURCE_DIR}/options08.cpp
     ${PROJECT_SOURCE_DIR}/options09.cpp
     ${PROJECT_SOURCE_DIR}/bsModel.cpp
+    ${PROJECT_SOURCE_DIR}/options10.cpp
     
 )
 
