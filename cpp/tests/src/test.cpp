@@ -5,6 +5,92 @@
 #include "chapter1.cpp"
 #include "chapter2.cpp"
 
+double f1(double x)
+{
+    return pow(x, 2) - 1;
+}
+
+double df1(double x)
+{
+    return 2 * x;
+}
+
+void main15()
+{
+    double epsilon = 0.001;
+    double a = 0;
+    double b = 3;
+    double tgt = 0;
+
+    std::cout << "Solving by bissection: " << std::endl;
+    std::cout << solveByBisection(f1, tgt, a, b, epsilon) << std::endl;
+
+    std::cout << "Solving by Newton & Raphson: " << std::endl;
+    std::cout << solveByNR(f1, df1, tgt, 0.5, epsilon) << std::endl;
+
+    return;
+}
+
+class func : public Function
+{
+
+    double value(double x)
+    {
+        return pow(x, 2) - 1;
+    }
+
+    double deriv(double x)
+    {
+        return 2 * x;
+    }
+};
+
+class func_a : public Function
+{
+    double a;
+
+public:
+    func_a(double a) : a(a)
+    {
+    }
+
+    double value(double x)
+    {
+        return pow(x, 2) - a;
+    }
+
+    double deriv(double x)
+    {
+        return 2 * x;
+    }
+};
+
+void main16()
+{
+    double epsilon = 0.001;
+    double a = 0;
+    double b = 3;
+    double tgt = 0;
+
+    func F;
+
+    std::cout << "Solving by bissection: " << std::endl;
+    std::cout << solveByBisection(&F, tgt, a, b, epsilon) << std::endl;
+
+    std::cout << "Solving by Newton & Raphson: " << std::endl;
+    std::cout << solveByNR(&F, tgt, 0.5, epsilon) << std::endl;
+
+    func_a F1(2);
+
+    std::cout << "Solving by bissection: " << std::endl;
+    std::cout << solveByBisection(&F1, tgt, a, b, epsilon) << std::endl;
+
+    std::cout << "Solving by Newton & Raphson: " << std::endl;
+    std::cout << solveByNR(&F1, tgt, 0.5, epsilon) << std::endl;
+
+    return;
+}
+
 int main()
 {
     // std::cout << "Chapter 1 :)" << std::endl;
@@ -43,6 +129,9 @@ int main()
     // exercice18();
 
     std::cout << "Chapter 4 :)" << std::endl;
+
+    // main15();
+    main16();
 
     return 0;
 }
