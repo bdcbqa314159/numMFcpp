@@ -1,13 +1,13 @@
 #ifndef EURCALL_H
 #define EURCALL_H
 
-class EurCall
+class EurCall1
 {
 
 public:
     double T, K;
 
-    EurCall(double T, double K) : T(T), K(K)
+    EurCall1(double T, double K) : T(T), K(K)
     {
     }
 

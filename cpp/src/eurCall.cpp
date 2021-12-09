@@ -21,22 +21,22 @@ double N(double x)
         return 1.0 - N(-x);
 }
 
-double EurCall::d_plus(double S0, double sigma, double r)
+double EurCall1::d_plus(double S0, double sigma, double r)
 {
     return (log(S0 / K) + (r + 0.5 * pow(sigma, 2) * T)) / (sigma * sqrt(T));
 }
 
-double EurCall::d_minus(double S0, double sigma, double r)
+double EurCall1::d_minus(double S0, double sigma, double r)
 {
     return d_plus(S0, sigma, r) - sigma * sqrt(T);
 }
 
-double EurCall::priceByBSFormula(double S0, double sigma, double r)
+double EurCall1::priceByBSFormula(double S0, double sigma, double r)
 {
     return S0 * N(d_plus(S0, sigma, r)) - K * exp(-r * T) * N(d_minus(S0, sigma, r));
 }
 
-double EurCall::vegaByBSFormula(double S0, double sigma, double r)
+double EurCall1::vegaByBSFormula(double S0, double sigma, double r)
 {
     double pi = 4.0 * atan(1.0);
     return (pi / sqrt(2 * pi)) * S0 * exp(-pow(d_plus(S0, sigma, r), 2) / 2);

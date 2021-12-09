@@ -21,7 +21,7 @@ void BSModel::generatePathSample(double T, int m, std::vector<double> &S)
     }
 
     double St = S0;
-    for (int i = 1; i < m; i++)
+    for (int i = 0; i < m; i++)
     {
         S[i] = St * exp((r - pow(sigma, 2) * 0.5) * (T / m) + sigma * sqrt(T / m) * gauss());
         St = S[i];
