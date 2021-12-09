@@ -3,40 +3,40 @@
 #include <iostream>
 #include <cmath>
 
-BSModel::BSModel() : S0(0), sigma(0), U(0), D(0), R(0), T(0), N(0)
+BSModel1::BSModel1() : S0(0), sigma(0), U(0), D(0), R(0), T(0), N(0)
 {
 }
 
-BSModel::~BSModel()
+BSModel1::~BSModel1()
 {
 }
 
-bool BSModel::isValidN()
+bool BSModel1::isValidN()
 {
     return N > 0;
 }
 
-bool BSModel::isValidS0()
+bool BSModel1::isValidS0()
 {
     return S0 > 0;
 }
 
-bool BSModel::isValidSigma()
+bool BSModel1::isValidSigma()
 {
     return sigma > 0;
 }
 
-bool BSModel::isValidT()
+bool BSModel1::isValidT()
 {
     return T > 0;
 }
 
-bool BSModel::isValid()
+bool BSModel1::isValid()
 {
     return (isValidN() && isValidS0() && isValidSigma() && isValidT());
 }
 
-void BSModel::getInputData()
+void BSModel1::getInputData()
 {
     std::cout << "===Enter data===" << std::endl;
     std::cout << "S0 >> ";
@@ -63,7 +63,7 @@ void BSModel::getInputData()
     }
 }
 
-BinModel BSModel::approxBinModel()
+BinModel BSModel1::approxBinModel()
 {
 
     if (isValid())

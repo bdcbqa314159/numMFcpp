@@ -3,7 +3,7 @@
 
 #include "binModel02.hpp"
 
-class BSModel
+class BSModel1
 {
 private:
     double S0;
@@ -16,8 +16,8 @@ private:
     int N;
 
 public:
-    BSModel();
-    ~BSModel();
+    BSModel1();
+    ~BSModel1();
     void getInputData();
     bool isValidN();
     bool isValidS0();

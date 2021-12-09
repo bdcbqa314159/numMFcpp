@@ -251,11 +251,15 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
   /usr/local/include/numMFcpp_bits/solvers.hpp \
   /usr/local/include/numMFcpp_bits/options10.hpp \
   /usr/local/include/numMFcpp_bits/eurCall.hpp \
+  /usr/local/include/numMFcpp_bits/bsModel01.hpp \
+  /usr/local/include/numMFcpp_bits/pathDepOptions01.hpp \
   ../src/chapter1.cpp \
   ../src/chapter2.cpp
 
 
 ../src/chapter2.cpp:
+
+/usr/local/include/numMFcpp_bits/bsModel01.hpp:
 
 /usr/local/include/numMFcpp_bits/eurCall.hpp:
 
@@ -580,6 +584,8 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/i386/signal.h:
 
 ../src/chapter1.cpp:
+
+/usr/local/include/numMFcpp_bits/pathDepOptions01.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint32_t.h:
 

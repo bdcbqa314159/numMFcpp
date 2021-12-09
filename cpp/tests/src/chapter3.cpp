@@ -180,7 +180,7 @@ void exercice16()
 void exercice17()
 {
     //Erxercice 3.2
-    BSModel bsModel;
+    BSModel1 bsModel;
 
     bsModel.getInputData();
 

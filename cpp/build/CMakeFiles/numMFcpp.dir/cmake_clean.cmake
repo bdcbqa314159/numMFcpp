@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/numMFcpp.dir/src/binModel02.cpp.o.d"
   "CMakeFiles/numMFcpp.dir/src/bsModel.cpp.o"
   "CMakeFiles/numMFcpp.dir/src/bsModel.cpp.o.d"
+  "CMakeFiles/numMFcpp.dir/src/bsModel01.cpp.o"
+  "CMakeFiles/numMFcpp.dir/src/bsModel01.cpp.o.d"
   "CMakeFiles/numMFcpp.dir/src/defInt.cpp.o"
   "CMakeFiles/numMFcpp.dir/src/defInt.cpp.o.d"
   "CMakeFiles/numMFcpp.dir/src/digitals.cpp.o"
@@ -33,6 +35,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/numMFcpp.dir/src/options09.cpp.o.d"
   "CMakeFiles/numMFcpp.dir/src/options10.cpp.o"
   "CMakeFiles/numMFcpp.dir/src/options10.cpp.o.d"
+  "CMakeFiles/numMFcpp.dir/src/pathDepOptions01.cpp.o"
+  "CMakeFiles/numMFcpp.dir/src/pathDepOptions01.cpp.o.d"
   "libnumMFcpp.dylib"
   "libnumMFcpp.pdb"
 )

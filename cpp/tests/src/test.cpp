@@ -359,6 +359,23 @@ void main18()
     std::cout << solveByNRT(&call, tgt, 0.5, epsilon) << std::endl;
 }
 
+//=============
+void main19()
+{
+    double S0(100.), r(0.03), sigma(0.2);
+    BSModel model(S0, r, sigma);
+
+    double T(1. / 12), K(100);
+    int m = 30;
+
+    ArithmAsianCall option(T, K, m);
+    long N = 30000;
+
+    std::cout << "Arithmetic Asian Call price = " << option.priceByMC(model, N) << std::endl;
+
+    return;
+}
+
 int main()
 {
     // std::cout << "Chapter 1 :)" << std::endl;
@@ -396,7 +413,7 @@ int main()
     // exercice17();
     // exercice18();
 
-    std::cout << "Chapter 4 :)" << std::endl;
+    // std::cout << "Chapter 4 :)" << std::endl;
 
     // main15();
     // main16();
@@ -405,7 +422,11 @@ int main()
     // exercice20();
     // exercice21();
     // exercice22();
-    main18();
+    // main18();
+
+    std::cout << "Chapter 5 :)" << std::endl;
+
+    main19();
 
     return 0;
 }

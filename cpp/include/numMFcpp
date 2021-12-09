@@ -20,5 +20,7 @@
 #include "numMFcpp_bits/solvers.hpp"
 #include "numMFcpp_bits/options10.hpp"
 #include "numMFcpp_bits/eurCall.hpp"
+#include "numMFcpp_bits/bsModel01.hpp"
+#include "numMFcpp_bits/pathDepOptions01.hpp"
 
 #endif
