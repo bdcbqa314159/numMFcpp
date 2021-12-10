@@ -253,11 +253,21 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
   /usr/local/include/numMFcpp_bits/eurCall.hpp \
   /usr/local/include/numMFcpp_bits/bsModel01.hpp \
   /usr/local/include/numMFcpp_bits/pathDepOptions01.hpp \
+  /usr/local/include/numMFcpp_bits/pathDepOptions02.hpp \
+  /usr/local/include/numMFcpp_bits/gmtrAsianCall.hpp \
   ../src/chapter1.cpp \
-  ../src/chapter2.cpp
+  ../src/chapter2.cpp \
+  ../src/chapter3.cpp \
+  ../src/chapter4.cpp
 
+
+../src/chapter3.cpp:
 
 ../src/chapter2.cpp:
+
+/usr/local/include/numMFcpp_bits/gmtrAsianCall.hpp:
+
+/usr/local/include/numMFcpp_bits/pathDepOptions02.hpp:
 
 /usr/local/include/numMFcpp_bits/bsModel01.hpp:
 
@@ -422,6 +432,8 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/memory:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__debug:
+
+../src/chapter4.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/xlocale/__wctype.h:
 

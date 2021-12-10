@@ -5,7 +5,7 @@
 //Here we only add pricingError, no need to write a whole new script for this.
 //Same for delta.
 
-class PathDepOption
+class PathDepOption1
 {
 public:
     double T, price, pricingError, delta, gamma, vega, theta, rho;
@@ -21,11 +21,11 @@ public:
     virtual double payoff(std::vector<double> &S) = 0;
 };
 
-class ArithmAsianCall : public PathDepOption
+class ArithmAsianCall1 : public PathDepOption1
 {
 public:
     double K;
-    ArithmAsianCall(double T, double K, int m) : K(K)
+    ArithmAsianCall1(double T, double K, int m) : K(K)
     {
         this->T = T;
         this->m = m;
@@ -35,11 +35,11 @@ public:
 };
 
 //exercise23 (exercise 5.1)
-class EurCall : public PathDepOption
+class EurCall2 : public PathDepOption1
 {
 public:
     double K;
-    EurCall(double T, double K, int m) : K(K)
+    EurCall2(double T, double K, int m) : K(K)
     {
         this->T = T;
         this->m = m;
@@ -48,11 +48,11 @@ public:
     double payoff(std::vector<double> &S);
 };
 
-class EurPut : public PathDepOption
+class EurPut1 : public PathDepOption1
 {
 public:
     double K;
-    EurPut(double T, double K, int m) : K(K)
+    EurPut1(double T, double K, int m) : K(K)
     {
         this->T = T;
         this->m = m;

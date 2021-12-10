@@ -40,6 +40,8 @@ set(SOURCE_FILES
     ${PROJECT_INCLUDE_DIR}/eurCall.hpp
     ${PROJECT_INCLUDE_DIR}/bsModel01.hpp
     ${PROJECT_INCLUDE_DIR}/pathDepOptions01.hpp
+    ${PROJECT_INCLUDE_DIR}/pathDepOptions02.hpp
+    ${PROJECT_INCLUDE_DIR}/gmtrAsianCall.hpp
     
     ${PROJECT_SOURCE_DIR}/binModel01.cpp
     ${PROJECT_SOURCE_DIR}/options01.cpp
@@ -60,6 +62,8 @@ set(SOURCE_FILES
     ${PROJECT_SOURCE_DIR}/eurCall.cpp
     ${PROJECT_SOURCE_DIR}/bsModel01.cpp
     ${PROJECT_SOURCE_DIR}/pathDepOptions01.cpp
+    ${PROJECT_SOURCE_DIR}/pathDepOptions02.cpp
+    ${PROJECT_SOURCE_DIR}/gmtrAsianCall.cpp
 
     
 )

@@ -22,5 +22,7 @@
 #include "numMFcpp_bits/eurCall.hpp"
 #include "numMFcpp_bits/bsModel01.hpp"
 #include "numMFcpp_bits/pathDepOptions01.hpp"
+#include "numMFcpp_bits/pathDepOptions02.hpp"
+#include "numMFcpp_bits/gmtrAsianCall.hpp"
 
 #endif

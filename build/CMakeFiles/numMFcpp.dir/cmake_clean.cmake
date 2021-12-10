@@ -15,6 +15,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/numMFcpp.dir/cpp/src/eurCall.cpp.o.d"
   "CMakeFiles/numMFcpp.dir/cpp/src/eurOptions.cpp.o"
   "CMakeFiles/numMFcpp.dir/cpp/src/eurOptions.cpp.o.d"
+  "CMakeFiles/numMFcpp.dir/cpp/src/gmtrAsianCall.cpp.o"
+  "CMakeFiles/numMFcpp.dir/cpp/src/gmtrAsianCall.cpp.o.d"
   "CMakeFiles/numMFcpp.dir/cpp/src/options01.cpp.o"
   "CMakeFiles/numMFcpp.dir/cpp/src/options01.cpp.o.d"
   "CMakeFiles/numMFcpp.dir/cpp/src/options02.cpp.o"
@@ -37,6 +39,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/numMFcpp.dir/cpp/src/options10.cpp.o.d"
   "CMakeFiles/numMFcpp.dir/cpp/src/pathDepOptions01.cpp.o"
   "CMakeFiles/numMFcpp.dir/cpp/src/pathDepOptions01.cpp.o.d"
+  "CMakeFiles/numMFcpp.dir/cpp/src/pathDepOptions02.cpp.o"
+  "CMakeFiles/numMFcpp.dir/cpp/src/pathDepOptions02.cpp.o.d"
   "numMFcpp.cpython-39-darwin.so"
   "numMFcpp.pdb"
 )

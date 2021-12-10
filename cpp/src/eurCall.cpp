@@ -23,7 +23,7 @@ double N(double x)
 
 double EurCall1::d_plus(double S0, double sigma, double r)
 {
-    return (log(S0 / K) + (r + 0.5 * pow(sigma, 2) * T)) / (sigma * sqrt(T));
+    return (log(S0 / K) + (r + 0.5 * pow(sigma, 2)) * T) / (sigma * sqrt(T));
 }
 
 double EurCall1::d_minus(double S0, double sigma, double r)

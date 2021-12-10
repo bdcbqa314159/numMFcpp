@@ -34,7 +34,7 @@ void rescale(std::vector<double> &S, std::vector<double> &Z, double S0, double r
     }
 }
 
-double PathDepOption::priceByMC(BSModel model, long N)
+double PathDepOption1::priceByMC(BSModel model, long N)
 {
     double H(0), Hsq(0);
     std::vector<double> S(m);
@@ -60,7 +60,7 @@ void disp(std::vector<double> &v)
     }
 }
 
-double PathDepOption::priceByMC(BSModel model, long N, double epsilon)
+double PathDepOption1::priceByMC(BSModel model, long N, double epsilon)
 {
     double H(0), Hsq(0);
     double Hdelta(0), Hvega(0), Hgamma(0), Htheta(0), Hrho(0);
@@ -104,7 +104,7 @@ double PathDepOption::priceByMC(BSModel model, long N, double epsilon)
     return price;
 }
 
-double ArithmAsianCall::payoff(std::vector<double> &S)
+double ArithmAsianCall1::payoff(std::vector<double> &S)
 {
     double average(0);
     for (int i = 0; i < m; i++)
@@ -115,13 +115,13 @@ double ArithmAsianCall::payoff(std::vector<double> &S)
     return (average - K) * (average > K);
 }
 
-double EurCall::payoff(std::vector<double> &S)
+double EurCall2::payoff(std::vector<double> &S)
 {
 
     return (S[m - 1] - K) * (S[m - 1] > K);
 }
 
-double EurPut::payoff(std::vector<double> &S)
+double EurPut1::payoff(std::vector<double> &S)
 {
 
     return (K - S[m - 1]) * (K > S[m - 1]);

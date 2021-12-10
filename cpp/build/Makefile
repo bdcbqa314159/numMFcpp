@@ -366,6 +366,30 @@ src/eurOptions.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/eurOptions.cpp.s
 .PHONY : src/eurOptions.cpp.s
 
+src/gmtrAsianCall.o: src/gmtrAsianCall.cpp.o
+.PHONY : src/gmtrAsianCall.o
+
+# target to build an object file
+src/gmtrAsianCall.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/gmtrAsianCall.cpp.o
+.PHONY : src/gmtrAsianCall.cpp.o
+
+src/gmtrAsianCall.i: src/gmtrAsianCall.cpp.i
+.PHONY : src/gmtrAsianCall.i
+
+# target to preprocess a source file
+src/gmtrAsianCall.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/gmtrAsianCall.cpp.i
+.PHONY : src/gmtrAsianCall.cpp.i
+
+src/gmtrAsianCall.s: src/gmtrAsianCall.cpp.s
+.PHONY : src/gmtrAsianCall.s
+
+# target to generate assembly for a file
+src/gmtrAsianCall.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/gmtrAsianCall.cpp.s
+.PHONY : src/gmtrAsianCall.cpp.s
+
 src/options01.o: src/options01.cpp.o
 .PHONY : src/options01.o
 
@@ -630,6 +654,30 @@ src/pathDepOptions01.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/pathDepOptions01.cpp.s
 .PHONY : src/pathDepOptions01.cpp.s
 
+src/pathDepOptions02.o: src/pathDepOptions02.cpp.o
+.PHONY : src/pathDepOptions02.o
+
+# target to build an object file
+src/pathDepOptions02.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/pathDepOptions02.cpp.o
+.PHONY : src/pathDepOptions02.cpp.o
+
+src/pathDepOptions02.i: src/pathDepOptions02.cpp.i
+.PHONY : src/pathDepOptions02.i
+
+# target to preprocess a source file
+src/pathDepOptions02.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/pathDepOptions02.cpp.i
+.PHONY : src/pathDepOptions02.cpp.i
+
+src/pathDepOptions02.s: src/pathDepOptions02.cpp.s
+.PHONY : src/pathDepOptions02.s
+
+# target to generate assembly for a file
+src/pathDepOptions02.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/pathDepOptions02.cpp.s
+.PHONY : src/pathDepOptions02.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -667,6 +715,9 @@ help:
 	@echo "... src/eurOptions.o"
 	@echo "... src/eurOptions.i"
 	@echo "... src/eurOptions.s"
+	@echo "... src/gmtrAsianCall.o"
+	@echo "... src/gmtrAsianCall.i"
+	@echo "... src/gmtrAsianCall.s"
 	@echo "... src/options01.o"
 	@echo "... src/options01.i"
 	@echo "... src/options01.s"
@@ -700,6 +751,9 @@ help:
 	@echo "... src/pathDepOptions01.o"
 	@echo "... src/pathDepOptions01.i"
 	@echo "... src/pathDepOptions01.s"
+	@echo "... src/pathDepOptions02.o"
+	@echo "... src/pathDepOptions02.i"
+	@echo "... src/pathDepOptions02.s"
 .PHONY : help
 
 

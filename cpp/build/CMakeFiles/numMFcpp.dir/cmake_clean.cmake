@@ -15,6 +15,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/numMFcpp.dir/src/eurCall.cpp.o.d"
   "CMakeFiles/numMFcpp.dir/src/eurOptions.cpp.o"
   "CMakeFiles/numMFcpp.dir/src/eurOptions.cpp.o.d"
+  "CMakeFiles/numMFcpp.dir/src/gmtrAsianCall.cpp.o"
+  "CMakeFiles/numMFcpp.dir/src/gmtrAsianCall.cpp.o.d"
   "CMakeFiles/numMFcpp.dir/src/options01.cpp.o"
   "CMakeFiles/numMFcpp.dir/src/options01.cpp.o.d"
   "CMakeFiles/numMFcpp.dir/src/options02.cpp.o"
@@ -37,6 +39,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/numMFcpp.dir/src/options10.cpp.o.d"
   "CMakeFiles/numMFcpp.dir/src/pathDepOptions01.cpp.o"
   "CMakeFiles/numMFcpp.dir/src/pathDepOptions01.cpp.o.d"
+  "CMakeFiles/numMFcpp.dir/src/pathDepOptions02.cpp.o"
+  "CMakeFiles/numMFcpp.dir/src/pathDepOptions02.cpp.o.d"
   "libnumMFcpp.dylib"
   "libnumMFcpp.pdb"
 )

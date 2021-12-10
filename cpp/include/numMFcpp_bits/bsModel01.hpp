@@ -3,6 +3,8 @@
 
 #include <vector>
 
+double gauss();
+
 class BSModel
 {
 
