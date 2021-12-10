@@ -24,5 +24,6 @@
 #include "numMFcpp_bits/pathDepOptions01.hpp"
 #include "numMFcpp_bits/pathDepOptions02.hpp"
 #include "numMFcpp_bits/gmtrAsianCall.hpp"
+#include "numMFcpp_bits/barrierCall.hpp"
 
 #endif

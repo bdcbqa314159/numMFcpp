@@ -28,3 +28,16 @@ double GmtrAsianCall::priceByBSFormula(BSModel model)
     price = G.priceByBSFormula(a, b, model.r);
     return price;
 }
+
+double GmtrAsianCall::deltaByBSFormula(BSModel model)
+{
+    double a(0), b(0);
+
+    a = model.S0 * exp(-model.r * T + (((m + 1.) * T) / (2. * m)) * (model.r + 0.5 * pow(model.sigma, 2) * ((2. * m + 1.) / (3. * m) - 1)));
+
+    b = model.sigma * sqrt(((m + 1.) * (2. * m + 1.) / (6 * m * m)));
+
+    EurCall1 G(T, K);
+    delta = G.deltaByBSFormula(a, b, model.r);
+    return delta;
+}

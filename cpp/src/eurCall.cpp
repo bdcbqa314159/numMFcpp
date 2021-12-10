@@ -36,6 +36,12 @@ double EurCall1::priceByBSFormula(double S0, double sigma, double r)
     return S0 * N(d_plus(S0, sigma, r)) - K * exp(-r * T) * N(d_minus(S0, sigma, r));
 }
 
+double EurCall1::deltaByBSFormula(double S0, double sigma, double r)
+{
+
+    return N(d_plus(S0, sigma, r));
+}
+
 double EurCall1::vegaByBSFormula(double S0, double sigma, double r)
 {
     double pi = 4.0 * atan(1.0);

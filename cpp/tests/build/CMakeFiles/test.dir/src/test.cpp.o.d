@@ -253,6 +253,7 @@ CMakeFiles/test.dir/src/test.cpp.o: \
   /usr/local/include/numMFcpp_bits/pathDepOptions01.hpp \
   /usr/local/include/numMFcpp_bits/pathDepOptions02.hpp \
   /usr/local/include/numMFcpp_bits/gmtrAsianCall.hpp \
+  /usr/local/include/numMFcpp_bits/barrierCall.hpp \
   /Users/bernardocohen/repos/numMFcpp/cpp/tests/src/chapter1.cpp \
   /Users/bernardocohen/repos/numMFcpp/cpp/tests/src/chapter2.cpp \
   /Users/bernardocohen/repos/numMFcpp/cpp/tests/src/chapter3.cpp \

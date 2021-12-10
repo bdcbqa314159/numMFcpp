@@ -61,4 +61,6 @@ public:
     double payoff(std::vector<double> &S);
 };
 
+void rescale(std::vector<double> &S, double x);
+
 #endif

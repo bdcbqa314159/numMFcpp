@@ -255,6 +255,7 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
   /usr/local/include/numMFcpp_bits/pathDepOptions01.hpp \
   /usr/local/include/numMFcpp_bits/pathDepOptions02.hpp \
   /usr/local/include/numMFcpp_bits/gmtrAsianCall.hpp \
+  /usr/local/include/numMFcpp_bits/barrierCall.hpp \
   ../src/chapter1.cpp \
   ../src/chapter2.cpp \
   ../src/chapter3.cpp \
@@ -572,6 +573,8 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
 /usr/local/include/numMFcpp_bits/digitals.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iostream:
+
+/usr/local/include/numMFcpp_bits/barrierCall.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/chrono:
 

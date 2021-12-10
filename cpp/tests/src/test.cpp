@@ -241,7 +241,6 @@ void exercice26()
 
 void main22()
 {
-
     double S0(100.), r(0.03), sigma(0.2);
     BSModel model(S0, r, sigma);
 
@@ -260,6 +259,64 @@ void main22()
 
     std::cout << "Arithmetic Asian Call price by direct MC = " << option.price << std::endl;
     std::cout << "MC error = " << option.pricingError << std::endl;
+
+    return;
+}
+
+void exercice27()
+{
+    //exercice 5.4
+    double S0(100.), r(0.03), sigma(0.2);
+    BSModel model(S0, r, sigma);
+
+    double T(1. / 12), K(100);
+    int m = 30;
+
+    ArithmAsianCall option(T, K, m);
+    GmtrAsianCall optionCV(T, m, K);
+
+    double epsilon = 0.0001;
+
+    long N = 30000;
+
+    option.priceByVarRedMC(model, m, optionCV, epsilon);
+    std::cout << "Arithmetic Asian Call price = " << option.price << std::endl;
+    std::cout << " error = " << option.pricingError << std::endl;
+    std::cout << " delta = " << option.delta << std::endl;
+    option.priceByMC(model, N, epsilon);
+
+    std::cout << "Arithmetic Asian Call price by direct MC = " << option.price << std::endl;
+    std::cout << "MC error = " << option.pricingError << std::endl;
+    std::cout << "MC delta = " << option.delta << std::endl;
+
+    return;
+}
+
+void exercice28()
+{
+    //exeercice 5.5
+    double S0(100.), r(0.03), sigma(0.2);
+    BSModel model(S0, r, sigma);
+
+    double T(1. / 12), K(100), L(120.);
+    int m = 30;
+
+    BarrierCall option(T, m, K, L);
+    EurCall optionCV(T, m, K);
+
+    double epsilon = 0.0001;
+
+    long N = 30000;
+
+    option.priceByVarRedMC(model, m, optionCV, epsilon);
+    std::cout << "Barrier Call price = " << option.price << std::endl;
+    std::cout << " error = " << option.pricingError << std::endl;
+    std::cout << " delta = " << option.delta << std::endl;
+    option.priceByMC(model, N, epsilon);
+
+    std::cout << "Barrier Call price by direct MC = " << option.price << std::endl;
+    std::cout << "MC error = " << option.pricingError << std::endl;
+    std::cout << "MC delta = " << option.delta << std::endl;
 
     return;
 }
@@ -321,7 +378,9 @@ int main()
     //exercice24();
     // exercice25();
     // exercice26();
-    main22();
+    //main22();
+    exercice27();
+    exercice28();
 
     return 0;
 }

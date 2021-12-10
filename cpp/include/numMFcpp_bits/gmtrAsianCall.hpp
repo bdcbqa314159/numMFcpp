@@ -13,6 +13,7 @@ public:
 
     double payoff(std::vector<double> &S);
     double priceByBSFormula(BSModel model);
+    double deltaByBSFormula(BSModel model);
 };
 
 #endif
