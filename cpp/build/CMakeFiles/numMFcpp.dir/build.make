@@ -377,19 +377,19 @@ CMakeFiles/numMFcpp.dir/src/barrierCall.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/numMFcpp.dir/src/barrierCall.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bernardocohen/repos/numMFcpp/cpp/src/barrierCall.cpp -o CMakeFiles/numMFcpp.dir/src/barrierCall.cpp.s
 
-CMakeFiles/numMFcpp.dir/src/contGmtrAsianCall.cpp.o: CMakeFiles/numMFcpp.dir/flags.make
-CMakeFiles/numMFcpp.dir/src/contGmtrAsianCall.cpp.o: ../src/contGmtrAsianCall.cpp
-CMakeFiles/numMFcpp.dir/src/contGmtrAsianCall.cpp.o: CMakeFiles/numMFcpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bernardocohen/repos/numMFcpp/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/numMFcpp.dir/src/contGmtrAsianCall.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/numMFcpp.dir/src/contGmtrAsianCall.cpp.o -MF CMakeFiles/numMFcpp.dir/src/contGmtrAsianCall.cpp.o.d -o CMakeFiles/numMFcpp.dir/src/contGmtrAsianCall.cpp.o -c /Users/bernardocohen/repos/numMFcpp/cpp/src/contGmtrAsianCall.cpp
+CMakeFiles/numMFcpp.dir/src/matrix.cpp.o: CMakeFiles/numMFcpp.dir/flags.make
+CMakeFiles/numMFcpp.dir/src/matrix.cpp.o: ../src/matrix.cpp
+CMakeFiles/numMFcpp.dir/src/matrix.cpp.o: CMakeFiles/numMFcpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bernardocohen/repos/numMFcpp/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/numMFcpp.dir/src/matrix.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/numMFcpp.dir/src/matrix.cpp.o -MF CMakeFiles/numMFcpp.dir/src/matrix.cpp.o.d -o CMakeFiles/numMFcpp.dir/src/matrix.cpp.o -c /Users/bernardocohen/repos/numMFcpp/cpp/src/matrix.cpp
 
-CMakeFiles/numMFcpp.dir/src/contGmtrAsianCall.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/numMFcpp.dir/src/contGmtrAsianCall.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bernardocohen/repos/numMFcpp/cpp/src/contGmtrAsianCall.cpp > CMakeFiles/numMFcpp.dir/src/contGmtrAsianCall.cpp.i
+CMakeFiles/numMFcpp.dir/src/matrix.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/numMFcpp.dir/src/matrix.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bernardocohen/repos/numMFcpp/cpp/src/matrix.cpp > CMakeFiles/numMFcpp.dir/src/matrix.cpp.i
 
-CMakeFiles/numMFcpp.dir/src/contGmtrAsianCall.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/numMFcpp.dir/src/contGmtrAsianCall.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bernardocohen/repos/numMFcpp/cpp/src/contGmtrAsianCall.cpp -o CMakeFiles/numMFcpp.dir/src/contGmtrAsianCall.cpp.s
+CMakeFiles/numMFcpp.dir/src/matrix.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/numMFcpp.dir/src/matrix.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bernardocohen/repos/numMFcpp/cpp/src/matrix.cpp -o CMakeFiles/numMFcpp.dir/src/matrix.cpp.s
 
 # Object files for target numMFcpp
 numMFcpp_OBJECTS = \
@@ -415,7 +415,7 @@ numMFcpp_OBJECTS = \
 "CMakeFiles/numMFcpp.dir/src/pathDepOptions02.cpp.o" \
 "CMakeFiles/numMFcpp.dir/src/gmtrAsianCall.cpp.o" \
 "CMakeFiles/numMFcpp.dir/src/barrierCall.cpp.o" \
-"CMakeFiles/numMFcpp.dir/src/contGmtrAsianCall.cpp.o"
+"CMakeFiles/numMFcpp.dir/src/matrix.cpp.o"
 
 # External object files for target numMFcpp
 numMFcpp_EXTERNAL_OBJECTS =
@@ -442,7 +442,7 @@ libnumMFcpp.dylib: CMakeFiles/numMFcpp.dir/src/pathDepOptions01.cpp.o
 libnumMFcpp.dylib: CMakeFiles/numMFcpp.dir/src/pathDepOptions02.cpp.o
 libnumMFcpp.dylib: CMakeFiles/numMFcpp.dir/src/gmtrAsianCall.cpp.o
 libnumMFcpp.dylib: CMakeFiles/numMFcpp.dir/src/barrierCall.cpp.o
-libnumMFcpp.dylib: CMakeFiles/numMFcpp.dir/src/contGmtrAsianCall.cpp.o
+libnumMFcpp.dylib: CMakeFiles/numMFcpp.dir/src/matrix.cpp.o
 libnumMFcpp.dylib: CMakeFiles/numMFcpp.dir/build.make
 libnumMFcpp.dylib: CMakeFiles/numMFcpp.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bernardocohen/repos/numMFcpp/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX shared library libnumMFcpp.dylib"

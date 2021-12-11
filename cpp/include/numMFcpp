@@ -26,5 +26,6 @@
 #include "numMFcpp_bits/gmtrAsianCall.hpp"
 #include "numMFcpp_bits/barrierCall.hpp"
 #include "numMFcpp_bits/contGmtrAsianCall.hpp"
+#include "numMFcpp_bits/matrix.hpp"
 
 #endif

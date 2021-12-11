@@ -294,30 +294,6 @@ src/bsModel01.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/bsModel01.cpp.s
 .PHONY : src/bsModel01.cpp.s
 
-src/contGmtrAsianCall.o: src/contGmtrAsianCall.cpp.o
-.PHONY : src/contGmtrAsianCall.o
-
-# target to build an object file
-src/contGmtrAsianCall.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/contGmtrAsianCall.cpp.o
-.PHONY : src/contGmtrAsianCall.cpp.o
-
-src/contGmtrAsianCall.i: src/contGmtrAsianCall.cpp.i
-.PHONY : src/contGmtrAsianCall.i
-
-# target to preprocess a source file
-src/contGmtrAsianCall.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/contGmtrAsianCall.cpp.i
-.PHONY : src/contGmtrAsianCall.cpp.i
-
-src/contGmtrAsianCall.s: src/contGmtrAsianCall.cpp.s
-.PHONY : src/contGmtrAsianCall.s
-
-# target to generate assembly for a file
-src/contGmtrAsianCall.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/contGmtrAsianCall.cpp.s
-.PHONY : src/contGmtrAsianCall.cpp.s
-
 src/defInt.o: src/defInt.cpp.o
 .PHONY : src/defInt.o
 
@@ -437,6 +413,30 @@ src/gmtrAsianCall.s: src/gmtrAsianCall.cpp.s
 src/gmtrAsianCall.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/gmtrAsianCall.cpp.s
 .PHONY : src/gmtrAsianCall.cpp.s
+
+src/matrix.o: src/matrix.cpp.o
+.PHONY : src/matrix.o
+
+# target to build an object file
+src/matrix.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/matrix.cpp.o
+.PHONY : src/matrix.cpp.o
+
+src/matrix.i: src/matrix.cpp.i
+.PHONY : src/matrix.i
+
+# target to preprocess a source file
+src/matrix.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/matrix.cpp.i
+.PHONY : src/matrix.cpp.i
+
+src/matrix.s: src/matrix.cpp.s
+.PHONY : src/matrix.s
+
+# target to generate assembly for a file
+src/matrix.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/matrix.cpp.s
+.PHONY : src/matrix.cpp.s
 
 src/options01.o: src/options01.cpp.o
 .PHONY : src/options01.o
@@ -754,9 +754,6 @@ help:
 	@echo "... src/bsModel01.o"
 	@echo "... src/bsModel01.i"
 	@echo "... src/bsModel01.s"
-	@echo "... src/contGmtrAsianCall.o"
-	@echo "... src/contGmtrAsianCall.i"
-	@echo "... src/contGmtrAsianCall.s"
 	@echo "... src/defInt.o"
 	@echo "... src/defInt.i"
 	@echo "... src/defInt.s"
@@ -772,6 +769,9 @@ help:
 	@echo "... src/gmtrAsianCall.o"
 	@echo "... src/gmtrAsianCall.i"
 	@echo "... src/gmtrAsianCall.s"
+	@echo "... src/matrix.o"
+	@echo "... src/matrix.i"
+	@echo "... src/matrix.s"
 	@echo "... src/options01.o"
 	@echo "... src/options01.i"
 	@echo "... src/options01.s"

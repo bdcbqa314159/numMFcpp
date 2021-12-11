@@ -438,6 +438,30 @@ cpp/src/gmtrAsianCall.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/cpp/src/gmtrAsianCall.cpp.s
 .PHONY : cpp/src/gmtrAsianCall.cpp.s
 
+cpp/src/matrix.o: cpp/src/matrix.cpp.o
+.PHONY : cpp/src/matrix.o
+
+# target to build an object file
+cpp/src/matrix.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/cpp/src/matrix.cpp.o
+.PHONY : cpp/src/matrix.cpp.o
+
+cpp/src/matrix.i: cpp/src/matrix.cpp.i
+.PHONY : cpp/src/matrix.i
+
+# target to preprocess a source file
+cpp/src/matrix.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/cpp/src/matrix.cpp.i
+.PHONY : cpp/src/matrix.cpp.i
+
+cpp/src/matrix.s: cpp/src/matrix.cpp.s
+.PHONY : cpp/src/matrix.s
+
+# target to generate assembly for a file
+cpp/src/matrix.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/cpp/src/matrix.cpp.s
+.PHONY : cpp/src/matrix.cpp.s
+
 cpp/src/options01.o: cpp/src/options01.cpp.o
 .PHONY : cpp/src/options01.o
 
@@ -772,6 +796,9 @@ help:
 	@echo "... cpp/src/gmtrAsianCall.o"
 	@echo "... cpp/src/gmtrAsianCall.i"
 	@echo "... cpp/src/gmtrAsianCall.s"
+	@echo "... cpp/src/matrix.o"
+	@echo "... cpp/src/matrix.i"
+	@echo "... cpp/src/matrix.s"
 	@echo "... cpp/src/options01.o"
 	@echo "... cpp/src/options01.i"
 	@echo "... cpp/src/options01.s"
