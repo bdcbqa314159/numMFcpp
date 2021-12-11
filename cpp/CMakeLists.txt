@@ -43,6 +43,7 @@ set(SOURCE_FILES
     ${PROJECT_INCLUDE_DIR}/pathDepOptions02.hpp
     ${PROJECT_INCLUDE_DIR}/gmtrAsianCall.hpp
     ${PROJECT_INCLUDE_DIR}/barrierCall.hpp
+    ${PROJECT_INCLUDE_DIR}/contGmtrAsianCall.hpp
     
     ${PROJECT_SOURCE_DIR}/binModel01.cpp
     ${PROJECT_SOURCE_DIR}/options01.cpp
@@ -66,6 +67,7 @@ set(SOURCE_FILES
     ${PROJECT_SOURCE_DIR}/pathDepOptions02.cpp
     ${PROJECT_SOURCE_DIR}/gmtrAsianCall.cpp
     ${PROJECT_SOURCE_DIR}/barrierCall.cpp
+    ${PROJECT_SOURCE_DIR}/contGmtrAsianCall.cpp
 
     
 )

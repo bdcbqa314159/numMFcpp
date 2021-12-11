@@ -245,7 +245,7 @@ void main22()
     BSModel model(S0, r, sigma);
 
     double T(1. / 12), K(100);
-    int m = 30;
+    int m = 100;
 
     ArithmAsianCall option(T, K, m);
     GmtrAsianCall optionCV(T, m, K);
@@ -265,7 +265,7 @@ void main22()
 
 void exercice27()
 {
-    //exercice 5.4
+    //exercice 5.5
     double S0(100.), r(0.03), sigma(0.2);
     BSModel model(S0, r, sigma);
 
@@ -294,7 +294,7 @@ void exercice27()
 
 void exercice28()
 {
-    //exeercice 5.5
+    //exeercice 5.6
     double S0(100.), r(0.03), sigma(0.2);
     BSModel model(S0, r, sigma);
 
@@ -317,6 +317,31 @@ void exercice28()
     std::cout << "Barrier Call price by direct MC = " << option.price << std::endl;
     std::cout << "MC error = " << option.pricingError << std::endl;
     std::cout << "MC delta = " << option.delta << std::endl;
+
+    return;
+}
+
+void exercice29()
+{
+    //exercice 5.7
+    double S0(100.), r(0.03), sigma(0.2);
+    BSModel model(S0, r, sigma);
+
+    double T(1. / 12), K(100);
+    int m = 300;
+
+    ArithmAsianCall option(T, K, m);
+    ContGmtrAsianCall optionCV(T, m, K);
+
+    long N = 30000;
+
+    option.priceByVarRedMC(model, m, optionCV);
+    std::cout << "Arithmetic Asian Call price = " << option.price << std::endl;
+    std::cout << " error = " << option.pricingError << std::endl;
+    option.priceByMC(model, N);
+
+    std::cout << "Arithmetic Asian Call price by direct MC = " << option.price << std::endl;
+    std::cout << "MC error = " << option.pricingError << std::endl;
 
     return;
 }
@@ -378,9 +403,10 @@ int main()
     //exercice24();
     // exercice25();
     // exercice26();
-    //main22();
-    exercice27();
-    exercice28();
+    // main22();
+    // exercice27();
+    // exercice28();
+    // exercice29();
 
     return 0;
 }

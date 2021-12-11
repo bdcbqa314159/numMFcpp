@@ -294,6 +294,30 @@ src/bsModel01.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/bsModel01.cpp.s
 .PHONY : src/bsModel01.cpp.s
 
+src/contGmtrAsianCall.o: src/contGmtrAsianCall.cpp.o
+.PHONY : src/contGmtrAsianCall.o
+
+# target to build an object file
+src/contGmtrAsianCall.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/contGmtrAsianCall.cpp.o
+.PHONY : src/contGmtrAsianCall.cpp.o
+
+src/contGmtrAsianCall.i: src/contGmtrAsianCall.cpp.i
+.PHONY : src/contGmtrAsianCall.i
+
+# target to preprocess a source file
+src/contGmtrAsianCall.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/contGmtrAsianCall.cpp.i
+.PHONY : src/contGmtrAsianCall.cpp.i
+
+src/contGmtrAsianCall.s: src/contGmtrAsianCall.cpp.s
+.PHONY : src/contGmtrAsianCall.s
+
+# target to generate assembly for a file
+src/contGmtrAsianCall.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/contGmtrAsianCall.cpp.s
+.PHONY : src/contGmtrAsianCall.cpp.s
+
 src/defInt.o: src/defInt.cpp.o
 .PHONY : src/defInt.o
 
@@ -730,6 +754,9 @@ help:
 	@echo "... src/bsModel01.o"
 	@echo "... src/bsModel01.i"
 	@echo "... src/bsModel01.s"
+	@echo "... src/contGmtrAsianCall.o"
+	@echo "... src/contGmtrAsianCall.i"
+	@echo "... src/contGmtrAsianCall.s"
 	@echo "... src/defInt.o"
 	@echo "... src/defInt.i"
 	@echo "... src/defInt.s"

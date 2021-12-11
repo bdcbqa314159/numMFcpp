@@ -256,6 +256,7 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
   /usr/local/include/numMFcpp_bits/pathDepOptions02.hpp \
   /usr/local/include/numMFcpp_bits/gmtrAsianCall.hpp \
   /usr/local/include/numMFcpp_bits/barrierCall.hpp \
+  /usr/local/include/numMFcpp_bits/contGmtrAsianCall.hpp \
   ../src/chapter1.cpp \
   ../src/chapter2.cpp \
   ../src/chapter3.cpp \
@@ -265,6 +266,8 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
 ../src/chapter3.cpp:
 
 ../src/chapter2.cpp:
+
+/usr/local/include/numMFcpp_bits/contGmtrAsianCall.hpp:
 
 /usr/local/include/numMFcpp_bits/gmtrAsianCall.hpp:
 

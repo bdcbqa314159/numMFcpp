@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/numMFcpp.dir/src/bsModel.cpp.o.d"
   "CMakeFiles/numMFcpp.dir/src/bsModel01.cpp.o"
   "CMakeFiles/numMFcpp.dir/src/bsModel01.cpp.o.d"
+  "CMakeFiles/numMFcpp.dir/src/contGmtrAsianCall.cpp.o"
+  "CMakeFiles/numMFcpp.dir/src/contGmtrAsianCall.cpp.o.d"
   "CMakeFiles/numMFcpp.dir/src/defInt.cpp.o"
   "CMakeFiles/numMFcpp.dir/src/defInt.cpp.o.d"
   "CMakeFiles/numMFcpp.dir/src/digitals.cpp.o"
