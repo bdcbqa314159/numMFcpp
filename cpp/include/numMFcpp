@@ -27,5 +27,9 @@
 #include "numMFcpp_bits/barrierCall.hpp"
 #include "numMFcpp_bits/contGmtrAsianCall.hpp"
 #include "numMFcpp_bits/matrix.hpp"
+#include "numMFcpp_bits/bsModel02.hpp"
+#include "numMFcpp_bits/pathDepOptions03.hpp"
+#include "numMFcpp_bits/eurBasketCall.hpp"
+#include "numMFcpp_bits/sumEuroCalls.hpp"
 
 #endif

@@ -26,6 +26,11 @@
 },
 {
   "directory": "/Users/bernardocohen/repos/numMFcpp/build",
+  "command": "/usr/bin/clang++ -DnumMFcpp_EXPORTS -I/Users/bernardocohen/repos/numMFcpp/cpp/include/numMFcpp_bits -I/Users/bernardocohen/repos/numMFcpp/python -isystem /usr/local/include -isystem /usr/local/anaconda3/include/python3.9 -O3 -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fPIC -fvisibility=hidden -std=c++17 -o CMakeFiles/numMFcpp.dir/cpp/src/bsModel02.cpp.o -c /Users/bernardocohen/repos/numMFcpp/cpp/src/bsModel02.cpp",
+  "file": "/Users/bernardocohen/repos/numMFcpp/cpp/src/bsModel02.cpp"
+},
+{
+  "directory": "/Users/bernardocohen/repos/numMFcpp/build",
   "command": "/usr/bin/clang++ -DnumMFcpp_EXPORTS -I/Users/bernardocohen/repos/numMFcpp/cpp/include/numMFcpp_bits -I/Users/bernardocohen/repos/numMFcpp/python -isystem /usr/local/include -isystem /usr/local/anaconda3/include/python3.9 -O3 -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fPIC -fvisibility=hidden -std=c++17 -o CMakeFiles/numMFcpp.dir/cpp/src/contGmtrAsianCall.cpp.o -c /Users/bernardocohen/repos/numMFcpp/cpp/src/contGmtrAsianCall.cpp",
   "file": "/Users/bernardocohen/repos/numMFcpp/cpp/src/contGmtrAsianCall.cpp"
 },
@@ -38,6 +43,11 @@
   "directory": "/Users/bernardocohen/repos/numMFcpp/build",
   "command": "/usr/bin/clang++ -DnumMFcpp_EXPORTS -I/Users/bernardocohen/repos/numMFcpp/cpp/include/numMFcpp_bits -I/Users/bernardocohen/repos/numMFcpp/python -isystem /usr/local/include -isystem /usr/local/anaconda3/include/python3.9 -O3 -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fPIC -fvisibility=hidden -std=c++17 -o CMakeFiles/numMFcpp.dir/cpp/src/digitals.cpp.o -c /Users/bernardocohen/repos/numMFcpp/cpp/src/digitals.cpp",
   "file": "/Users/bernardocohen/repos/numMFcpp/cpp/src/digitals.cpp"
+},
+{
+  "directory": "/Users/bernardocohen/repos/numMFcpp/build",
+  "command": "/usr/bin/clang++ -DnumMFcpp_EXPORTS -I/Users/bernardocohen/repos/numMFcpp/cpp/include/numMFcpp_bits -I/Users/bernardocohen/repos/numMFcpp/python -isystem /usr/local/include -isystem /usr/local/anaconda3/include/python3.9 -O3 -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fPIC -fvisibility=hidden -std=c++17 -o CMakeFiles/numMFcpp.dir/cpp/src/eurBasketCall.cpp.o -c /Users/bernardocohen/repos/numMFcpp/cpp/src/eurBasketCall.cpp",
+  "file": "/Users/bernardocohen/repos/numMFcpp/cpp/src/eurBasketCall.cpp"
 },
 {
   "directory": "/Users/bernardocohen/repos/numMFcpp/build",
@@ -118,5 +128,15 @@
   "directory": "/Users/bernardocohen/repos/numMFcpp/build",
   "command": "/usr/bin/clang++ -DnumMFcpp_EXPORTS -I/Users/bernardocohen/repos/numMFcpp/cpp/include/numMFcpp_bits -I/Users/bernardocohen/repos/numMFcpp/python -isystem /usr/local/include -isystem /usr/local/anaconda3/include/python3.9 -O3 -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fPIC -fvisibility=hidden -std=c++17 -o CMakeFiles/numMFcpp.dir/cpp/src/pathDepOptions02.cpp.o -c /Users/bernardocohen/repos/numMFcpp/cpp/src/pathDepOptions02.cpp",
   "file": "/Users/bernardocohen/repos/numMFcpp/cpp/src/pathDepOptions02.cpp"
+},
+{
+  "directory": "/Users/bernardocohen/repos/numMFcpp/build",
+  "command": "/usr/bin/clang++ -DnumMFcpp_EXPORTS -I/Users/bernardocohen/repos/numMFcpp/cpp/include/numMFcpp_bits -I/Users/bernardocohen/repos/numMFcpp/python -isystem /usr/local/include -isystem /usr/local/anaconda3/include/python3.9 -O3 -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fPIC -fvisibility=hidden -std=c++17 -o CMakeFiles/numMFcpp.dir/cpp/src/pathDepOptions03.cpp.o -c /Users/bernardocohen/repos/numMFcpp/cpp/src/pathDepOptions03.cpp",
+  "file": "/Users/bernardocohen/repos/numMFcpp/cpp/src/pathDepOptions03.cpp"
+},
+{
+  "directory": "/Users/bernardocohen/repos/numMFcpp/build",
+  "command": "/usr/bin/clang++ -DnumMFcpp_EXPORTS -I/Users/bernardocohen/repos/numMFcpp/cpp/include/numMFcpp_bits -I/Users/bernardocohen/repos/numMFcpp/python -isystem /usr/local/include -isystem /usr/local/anaconda3/include/python3.9 -O3 -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fPIC -fvisibility=hidden -std=c++17 -o CMakeFiles/numMFcpp.dir/cpp/src/sumEuroCalls.cpp.o -c /Users/bernardocohen/repos/numMFcpp/cpp/src/sumEuroCalls.cpp",
+  "file": "/Users/bernardocohen/repos/numMFcpp/cpp/src/sumEuroCalls.cpp"
 }
 ]

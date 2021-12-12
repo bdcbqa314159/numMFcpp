@@ -377,10 +377,24 @@ CMakeFiles/numMFcpp.dir/src/barrierCall.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/numMFcpp.dir/src/barrierCall.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bernardocohen/repos/numMFcpp/cpp/src/barrierCall.cpp -o CMakeFiles/numMFcpp.dir/src/barrierCall.cpp.s
 
+CMakeFiles/numMFcpp.dir/src/contGmtrAsianCall.cpp.o: CMakeFiles/numMFcpp.dir/flags.make
+CMakeFiles/numMFcpp.dir/src/contGmtrAsianCall.cpp.o: ../src/contGmtrAsianCall.cpp
+CMakeFiles/numMFcpp.dir/src/contGmtrAsianCall.cpp.o: CMakeFiles/numMFcpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bernardocohen/repos/numMFcpp/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/numMFcpp.dir/src/contGmtrAsianCall.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/numMFcpp.dir/src/contGmtrAsianCall.cpp.o -MF CMakeFiles/numMFcpp.dir/src/contGmtrAsianCall.cpp.o.d -o CMakeFiles/numMFcpp.dir/src/contGmtrAsianCall.cpp.o -c /Users/bernardocohen/repos/numMFcpp/cpp/src/contGmtrAsianCall.cpp
+
+CMakeFiles/numMFcpp.dir/src/contGmtrAsianCall.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/numMFcpp.dir/src/contGmtrAsianCall.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bernardocohen/repos/numMFcpp/cpp/src/contGmtrAsianCall.cpp > CMakeFiles/numMFcpp.dir/src/contGmtrAsianCall.cpp.i
+
+CMakeFiles/numMFcpp.dir/src/contGmtrAsianCall.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/numMFcpp.dir/src/contGmtrAsianCall.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bernardocohen/repos/numMFcpp/cpp/src/contGmtrAsianCall.cpp -o CMakeFiles/numMFcpp.dir/src/contGmtrAsianCall.cpp.s
+
 CMakeFiles/numMFcpp.dir/src/matrix.cpp.o: CMakeFiles/numMFcpp.dir/flags.make
 CMakeFiles/numMFcpp.dir/src/matrix.cpp.o: ../src/matrix.cpp
 CMakeFiles/numMFcpp.dir/src/matrix.cpp.o: CMakeFiles/numMFcpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bernardocohen/repos/numMFcpp/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/numMFcpp.dir/src/matrix.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bernardocohen/repos/numMFcpp/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/numMFcpp.dir/src/matrix.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/numMFcpp.dir/src/matrix.cpp.o -MF CMakeFiles/numMFcpp.dir/src/matrix.cpp.o.d -o CMakeFiles/numMFcpp.dir/src/matrix.cpp.o -c /Users/bernardocohen/repos/numMFcpp/cpp/src/matrix.cpp
 
 CMakeFiles/numMFcpp.dir/src/matrix.cpp.i: cmake_force
@@ -390,6 +404,62 @@ CMakeFiles/numMFcpp.dir/src/matrix.cpp.i: cmake_force
 CMakeFiles/numMFcpp.dir/src/matrix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/numMFcpp.dir/src/matrix.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bernardocohen/repos/numMFcpp/cpp/src/matrix.cpp -o CMakeFiles/numMFcpp.dir/src/matrix.cpp.s
+
+CMakeFiles/numMFcpp.dir/src/bsModel02.cpp.o: CMakeFiles/numMFcpp.dir/flags.make
+CMakeFiles/numMFcpp.dir/src/bsModel02.cpp.o: ../src/bsModel02.cpp
+CMakeFiles/numMFcpp.dir/src/bsModel02.cpp.o: CMakeFiles/numMFcpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bernardocohen/repos/numMFcpp/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/numMFcpp.dir/src/bsModel02.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/numMFcpp.dir/src/bsModel02.cpp.o -MF CMakeFiles/numMFcpp.dir/src/bsModel02.cpp.o.d -o CMakeFiles/numMFcpp.dir/src/bsModel02.cpp.o -c /Users/bernardocohen/repos/numMFcpp/cpp/src/bsModel02.cpp
+
+CMakeFiles/numMFcpp.dir/src/bsModel02.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/numMFcpp.dir/src/bsModel02.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bernardocohen/repos/numMFcpp/cpp/src/bsModel02.cpp > CMakeFiles/numMFcpp.dir/src/bsModel02.cpp.i
+
+CMakeFiles/numMFcpp.dir/src/bsModel02.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/numMFcpp.dir/src/bsModel02.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bernardocohen/repos/numMFcpp/cpp/src/bsModel02.cpp -o CMakeFiles/numMFcpp.dir/src/bsModel02.cpp.s
+
+CMakeFiles/numMFcpp.dir/src/pathDepOptions03.cpp.o: CMakeFiles/numMFcpp.dir/flags.make
+CMakeFiles/numMFcpp.dir/src/pathDepOptions03.cpp.o: ../src/pathDepOptions03.cpp
+CMakeFiles/numMFcpp.dir/src/pathDepOptions03.cpp.o: CMakeFiles/numMFcpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bernardocohen/repos/numMFcpp/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/numMFcpp.dir/src/pathDepOptions03.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/numMFcpp.dir/src/pathDepOptions03.cpp.o -MF CMakeFiles/numMFcpp.dir/src/pathDepOptions03.cpp.o.d -o CMakeFiles/numMFcpp.dir/src/pathDepOptions03.cpp.o -c /Users/bernardocohen/repos/numMFcpp/cpp/src/pathDepOptions03.cpp
+
+CMakeFiles/numMFcpp.dir/src/pathDepOptions03.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/numMFcpp.dir/src/pathDepOptions03.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bernardocohen/repos/numMFcpp/cpp/src/pathDepOptions03.cpp > CMakeFiles/numMFcpp.dir/src/pathDepOptions03.cpp.i
+
+CMakeFiles/numMFcpp.dir/src/pathDepOptions03.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/numMFcpp.dir/src/pathDepOptions03.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bernardocohen/repos/numMFcpp/cpp/src/pathDepOptions03.cpp -o CMakeFiles/numMFcpp.dir/src/pathDepOptions03.cpp.s
+
+CMakeFiles/numMFcpp.dir/src/eurBasketCall.cpp.o: CMakeFiles/numMFcpp.dir/flags.make
+CMakeFiles/numMFcpp.dir/src/eurBasketCall.cpp.o: ../src/eurBasketCall.cpp
+CMakeFiles/numMFcpp.dir/src/eurBasketCall.cpp.o: CMakeFiles/numMFcpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bernardocohen/repos/numMFcpp/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/numMFcpp.dir/src/eurBasketCall.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/numMFcpp.dir/src/eurBasketCall.cpp.o -MF CMakeFiles/numMFcpp.dir/src/eurBasketCall.cpp.o.d -o CMakeFiles/numMFcpp.dir/src/eurBasketCall.cpp.o -c /Users/bernardocohen/repos/numMFcpp/cpp/src/eurBasketCall.cpp
+
+CMakeFiles/numMFcpp.dir/src/eurBasketCall.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/numMFcpp.dir/src/eurBasketCall.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bernardocohen/repos/numMFcpp/cpp/src/eurBasketCall.cpp > CMakeFiles/numMFcpp.dir/src/eurBasketCall.cpp.i
+
+CMakeFiles/numMFcpp.dir/src/eurBasketCall.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/numMFcpp.dir/src/eurBasketCall.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bernardocohen/repos/numMFcpp/cpp/src/eurBasketCall.cpp -o CMakeFiles/numMFcpp.dir/src/eurBasketCall.cpp.s
+
+CMakeFiles/numMFcpp.dir/src/sumEuroCalls.cpp.o: CMakeFiles/numMFcpp.dir/flags.make
+CMakeFiles/numMFcpp.dir/src/sumEuroCalls.cpp.o: ../src/sumEuroCalls.cpp
+CMakeFiles/numMFcpp.dir/src/sumEuroCalls.cpp.o: CMakeFiles/numMFcpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bernardocohen/repos/numMFcpp/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/numMFcpp.dir/src/sumEuroCalls.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/numMFcpp.dir/src/sumEuroCalls.cpp.o -MF CMakeFiles/numMFcpp.dir/src/sumEuroCalls.cpp.o.d -o CMakeFiles/numMFcpp.dir/src/sumEuroCalls.cpp.o -c /Users/bernardocohen/repos/numMFcpp/cpp/src/sumEuroCalls.cpp
+
+CMakeFiles/numMFcpp.dir/src/sumEuroCalls.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/numMFcpp.dir/src/sumEuroCalls.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bernardocohen/repos/numMFcpp/cpp/src/sumEuroCalls.cpp > CMakeFiles/numMFcpp.dir/src/sumEuroCalls.cpp.i
+
+CMakeFiles/numMFcpp.dir/src/sumEuroCalls.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/numMFcpp.dir/src/sumEuroCalls.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bernardocohen/repos/numMFcpp/cpp/src/sumEuroCalls.cpp -o CMakeFiles/numMFcpp.dir/src/sumEuroCalls.cpp.s
 
 # Object files for target numMFcpp
 numMFcpp_OBJECTS = \
@@ -415,7 +485,12 @@ numMFcpp_OBJECTS = \
 "CMakeFiles/numMFcpp.dir/src/pathDepOptions02.cpp.o" \
 "CMakeFiles/numMFcpp.dir/src/gmtrAsianCall.cpp.o" \
 "CMakeFiles/numMFcpp.dir/src/barrierCall.cpp.o" \
-"CMakeFiles/numMFcpp.dir/src/matrix.cpp.o"
+"CMakeFiles/numMFcpp.dir/src/contGmtrAsianCall.cpp.o" \
+"CMakeFiles/numMFcpp.dir/src/matrix.cpp.o" \
+"CMakeFiles/numMFcpp.dir/src/bsModel02.cpp.o" \
+"CMakeFiles/numMFcpp.dir/src/pathDepOptions03.cpp.o" \
+"CMakeFiles/numMFcpp.dir/src/eurBasketCall.cpp.o" \
+"CMakeFiles/numMFcpp.dir/src/sumEuroCalls.cpp.o"
 
 # External object files for target numMFcpp
 numMFcpp_EXTERNAL_OBJECTS =
@@ -442,10 +517,15 @@ libnumMFcpp.dylib: CMakeFiles/numMFcpp.dir/src/pathDepOptions01.cpp.o
 libnumMFcpp.dylib: CMakeFiles/numMFcpp.dir/src/pathDepOptions02.cpp.o
 libnumMFcpp.dylib: CMakeFiles/numMFcpp.dir/src/gmtrAsianCall.cpp.o
 libnumMFcpp.dylib: CMakeFiles/numMFcpp.dir/src/barrierCall.cpp.o
+libnumMFcpp.dylib: CMakeFiles/numMFcpp.dir/src/contGmtrAsianCall.cpp.o
 libnumMFcpp.dylib: CMakeFiles/numMFcpp.dir/src/matrix.cpp.o
+libnumMFcpp.dylib: CMakeFiles/numMFcpp.dir/src/bsModel02.cpp.o
+libnumMFcpp.dylib: CMakeFiles/numMFcpp.dir/src/pathDepOptions03.cpp.o
+libnumMFcpp.dylib: CMakeFiles/numMFcpp.dir/src/eurBasketCall.cpp.o
+libnumMFcpp.dylib: CMakeFiles/numMFcpp.dir/src/sumEuroCalls.cpp.o
 libnumMFcpp.dylib: CMakeFiles/numMFcpp.dir/build.make
 libnumMFcpp.dylib: CMakeFiles/numMFcpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bernardocohen/repos/numMFcpp/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX shared library libnumMFcpp.dylib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bernardocohen/repos/numMFcpp/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking CXX shared library libnumMFcpp.dylib"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/numMFcpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -346,6 +346,288 @@ void exercice29()
     return;
 }
 
+void main23()
+{
+    int d = 3;
+    Vector S0(d);
+    S0[0] = 40.;
+    S0[1] = 60.;
+    S0[2] = 100.;
+
+    double r = 0.03;
+
+    Matrix C(d);
+    for (int i = 0; i < d; i++)
+    {
+        C[i].resize(d);
+    }
+
+    C[0][0] = 0.1;
+    C[0][1] = -0.1;
+    C[0][2] = 0.0;
+
+    C[1][0] = -0.1;
+    C[1][1] = 0.2;
+    C[1][2] = 0.0;
+
+    C[2][0] = 0.0;
+    C[2][1] = 0.0;
+    C[2][2] = 0.3;
+
+    BSModeld model(S0, r, C);
+
+    double T = 1. / 12, K(200.);
+    int m = 30;
+    ArithmAsianCalld option(T, K, m);
+
+    long N = 30000;
+    option.priceByMC(model, N);
+
+    std::cout << "Arithmetic Asian Call price = " << option.price << std::endl;
+}
+
+void exercice30()
+{
+    //exercice 5.8
+
+    int d = 3;
+    Vector S0(d);
+    S0[0] = 40.;
+    S0[1] = 60.;
+    S0[2] = 100.;
+
+    double r = 0.03;
+
+    Matrix C(d);
+    for (int i = 0; i < d; i++)
+    {
+        C[i].resize(d);
+    }
+
+    C[0][0] = 0.1;
+    C[0][1] = -0.1;
+    C[0][2] = 0.0;
+
+    C[1][0] = -0.1;
+    C[1][1] = 0.2;
+    C[1][2] = 0.0;
+
+    C[2][0] = 0.0;
+    C[2][1] = 0.0;
+    C[2][2] = 0.3;
+
+    BSModeld model(S0, r, C);
+
+    double T = 1. / 12, K(200.);
+    int m = 30;
+    ArithmAsianCalld option(T, K, m);
+
+    long N = 30000;
+    option.priceByMC(model, N);
+
+    std::cout << "Arithmetic Asian Call price = " << option.price << std::endl;
+    std::cout << "pricing error = " << option.pricingError << std::endl;
+}
+
+void exercice31()
+{
+    //exercice 5.9
+
+    int d = 3;
+    Vector S0(d);
+    S0[0] = 40.;
+    S0[1] = 60.;
+    S0[2] = 100.;
+
+    double r = 0.03;
+
+    Matrix C(d);
+    for (int i = 0; i < d; i++)
+    {
+        C[i].resize(d);
+    }
+
+    C[0][0] = 0.1;
+    C[0][1] = -0.1;
+    C[0][2] = 0.0;
+
+    C[1][0] = -0.1;
+    C[1][1] = 0.2;
+    C[1][2] = 0.0;
+
+    C[2][0] = 0.0;
+    C[2][1] = 0.0;
+    C[2][2] = 0.3;
+
+    BSModeld model(S0, r, C);
+
+    double T = 1. / 12, K(200.);
+    int m = 30;
+    ArithmAsianCalld option(T, K, m);
+
+    long N = 30000;
+    double epsilon = 0.0001;
+    option.priceByMC(model, N, epsilon);
+
+    std::cout << "Arithmetic Asian Call price = " << option.price << std::endl;
+    std::cout << "pricing error = " << option.pricingError << std::endl;
+
+    std::cout << "deltas: " << std::endl;
+    for (int i = 0; i < option.delta.size(); i++)
+    {
+        std::cout << "delta[" << i << "]=" << option.delta[i] << std::endl;
+    }
+}
+
+void exercice32()
+{
+    //exercice 5.10
+
+    int d = 3;
+    Vector S0(d);
+    S0[0] = 40.;
+    S0[1] = 60.;
+    S0[2] = 100.;
+
+    double r = 0.03;
+
+    Matrix C(d);
+    for (int i = 0; i < d; i++)
+    {
+        C[i].resize(d);
+    }
+
+    C[0][0] = 0.1;
+    C[0][1] = -0.1;
+    C[0][2] = 0.0;
+
+    C[1][0] = -0.1;
+    C[1][1] = 0.2;
+    C[1][2] = 0.0;
+
+    C[2][0] = 0.0;
+    C[2][1] = 0.0;
+    C[2][2] = 0.3;
+
+    BSModeld model(S0, r, C);
+
+    double T = 1. / 12, K(200.);
+    int m = 30;
+    EurBasketCall option(T, K, m);
+
+    long N = 30000;
+    double epsilon = 0.0001;
+    option.priceByMC(model, N, epsilon);
+
+    std::cout << "Euro Basket Call price = " << option.price << std::endl;
+    std::cout << "pricing error = " << option.pricingError << std::endl;
+}
+
+void exercice33()
+{
+    //exercice 5.11
+
+    int d = 3;
+    Vector S0(d);
+    S0[0] = 40.;
+    S0[1] = 60.;
+    S0[2] = 100.;
+
+    double r = 0.03;
+
+    Matrix C(d);
+    for (int i = 0; i < d; i++)
+    {
+        C[i].resize(d);
+    }
+
+    C[0][0] = 0.1;
+    C[0][1] = -0.1;
+    C[0][2] = 0.0;
+
+    C[1][0] = -0.1;
+    C[1][1] = 0.2;
+    C[1][2] = 0.0;
+
+    C[2][0] = 0.0;
+    C[2][1] = 0.0;
+    C[2][2] = 0.3;
+
+    BSModeld model(S0, r, C);
+
+    double T = 1. / 12, K(200.);
+    int m = 30;
+
+    double V(0);
+    for (int i = 0; i < d; i++)
+    {
+        V += model.S0[i];
+    }
+
+    Vector Kd = (K / V) * model.S0;
+
+    EurBasketCall option(T, K, m);
+    SumEuroCalls optionCV(T, m, Kd);
+
+    long N = 30000;
+
+    option.priceByVarRedMC(model, m, optionCV);
+
+    std::cout << "Euro Basket Call price = " << option.price << std::endl;
+    std::cout << "pricing error = " << option.pricingError << std::endl;
+
+    option.priceByMC(model, N);
+
+    std::cout << "Euro Basket Call  Call price by direct MC = " << option.price << std::endl;
+    std::cout << "MC error = " << option.pricingError << std::endl;
+}
+
+void test_call()
+{
+    //testing call in d dimension vs 1d.
+    int d = 1;
+    Vector S0(d);
+    S0[0] = 100.;
+
+    double r(0.03), sigma(0.2);
+
+    Matrix C(d);
+    for (int i = 0; i < d; i++)
+    {
+        C[i].resize(d);
+    }
+
+    C[0][0] = 0.2;
+
+    BSModeld model(S0, r, C);
+
+    double T = 1. / 12, K(100.);
+    int m = 30;
+
+    long N = 300;
+
+    double V(0);
+    for (int i = 0; i < d; i++)
+    {
+        V += model.S0[i];
+    }
+
+    Vector Kd = (K / V) * model.S0;
+
+    EurBasketCall option(T, K, m);
+    SumEuroCalls optionCV(T, m, Kd);
+
+    option.priceByVarRedMC(model, m, optionCV);
+
+    std::cout << "Euro Basket Call price = " << option.price << std::endl;
+    std::cout << "pricing error = " << option.pricingError << std::endl;
+
+    option.priceByMC(model, N);
+
+    std::cout << "Euro Basket Call  Call price by direct MC = " << option.price << std::endl;
+    std::cout << "MC error = " << option.pricingError << std::endl;
+}
+
 int main()
 {
     // std::cout << "Chapter 1 :)" << std::endl;
@@ -407,6 +689,12 @@ int main()
     // exercice27();
     // exercice28();
     // exercice29();
+    // main23();
+    // exercice30();
+    // exercice31();
+    // exercice32();
+    // exercice33();
+    // test_call();
 
     return 0;
 }

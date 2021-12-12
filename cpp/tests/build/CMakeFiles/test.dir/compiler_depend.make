@@ -257,6 +257,11 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
   /usr/local/include/numMFcpp_bits/gmtrAsianCall.hpp \
   /usr/local/include/numMFcpp_bits/barrierCall.hpp \
   /usr/local/include/numMFcpp_bits/contGmtrAsianCall.hpp \
+  /usr/local/include/numMFcpp_bits/matrix.hpp \
+  /usr/local/include/numMFcpp_bits/bsModel02.hpp \
+  /usr/local/include/numMFcpp_bits/pathDepOptions03.hpp \
+  /usr/local/include/numMFcpp_bits/eurBasketCall.hpp \
+  /usr/local/include/numMFcpp_bits/sumEuroCalls.hpp \
   ../src/chapter1.cpp \
   ../src/chapter2.cpp \
   ../src/chapter3.cpp \
@@ -266,6 +271,10 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
 ../src/chapter3.cpp:
 
 ../src/chapter2.cpp:
+
+/usr/local/include/numMFcpp_bits/bsModel02.hpp:
+
+/usr/local/include/numMFcpp_bits/matrix.hpp:
 
 /usr/local/include/numMFcpp_bits/contGmtrAsianCall.hpp:
 
@@ -334,6 +343,8 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/nl_types.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/locale:
+
+/usr/local/include/numMFcpp_bits/pathDepOptions03.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ostream:
 
@@ -452,6 +463,8 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_wctrans_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h:
+
+/usr/local/include/numMFcpp_bits/eurBasketCall.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string.h:
 
@@ -660,6 +673,8 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_intptr_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/stdio.h:
+
+/usr/local/include/numMFcpp_bits/sumEuroCalls.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iomanip:
 

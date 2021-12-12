@@ -7,7 +7,7 @@ class ContGmtrAsianCall : public PathDepOption
 public:
     double K;
 
-    ContGmtrAsianCall(double T, double m, double K) : PathDepOption(T, m), K(K)
+    ContGmtrAsianCall(double T, int m, double K) : PathDepOption(T, m), K(K)
     {
     }
 

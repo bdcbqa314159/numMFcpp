@@ -45,6 +45,10 @@ set(SOURCE_FILES
     ${PROJECT_INCLUDE_DIR}/barrierCall.hpp
     ${PROJECT_INCLUDE_DIR}/contGmtrAsianCall.hpp
     ${PROJECT_INCLUDE_DIR}/matrix.hpp
+    ${PROJECT_INCLUDE_DIR}/bsModel02.hpp
+    ${PROJECT_INCLUDE_DIR}/pathDepOptions03.hpp
+    ${PROJECT_INCLUDE_DIR}/eurBasketCall.hpp
+    ${PROJECT_INCLUDE_DIR}/sumEuroCalls.hpp
     
     ${PROJECT_SOURCE_DIR}/binModel01.cpp
     ${PROJECT_SOURCE_DIR}/options01.cpp
@@ -68,8 +72,12 @@ set(SOURCE_FILES
     ${PROJECT_SOURCE_DIR}/pathDepOptions02.cpp
     ${PROJECT_SOURCE_DIR}/gmtrAsianCall.cpp
     ${PROJECT_SOURCE_DIR}/barrierCall.cpp
+    ${PROJECT_SOURCE_DIR}/contGmtrAsianCall.cpp
     ${PROJECT_SOURCE_DIR}/matrix.cpp
-
+    ${PROJECT_SOURCE_DIR}/bsModel02.cpp
+    ${PROJECT_SOURCE_DIR}/pathDepOptions03.cpp
+    ${PROJECT_SOURCE_DIR}/eurBasketCall.cpp
+    ${PROJECT_SOURCE_DIR}/sumEuroCalls.cpp
     
 )
 

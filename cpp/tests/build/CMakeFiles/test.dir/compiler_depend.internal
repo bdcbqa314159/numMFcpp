@@ -258,6 +258,11 @@ CMakeFiles/test.dir/src/test.cpp.o
  /usr/local/include/numMFcpp_bits/gmtrAsianCall.hpp
  /usr/local/include/numMFcpp_bits/barrierCall.hpp
  /usr/local/include/numMFcpp_bits/contGmtrAsianCall.hpp
+ /usr/local/include/numMFcpp_bits/matrix.hpp
+ /usr/local/include/numMFcpp_bits/bsModel02.hpp
+ /usr/local/include/numMFcpp_bits/pathDepOptions03.hpp
+ /usr/local/include/numMFcpp_bits/eurBasketCall.hpp
+ /usr/local/include/numMFcpp_bits/sumEuroCalls.hpp
  /Users/bernardocohen/repos/numMFcpp/cpp/tests/src/chapter1.cpp
  /Users/bernardocohen/repos/numMFcpp/cpp/tests/src/chapter2.cpp
  /Users/bernardocohen/repos/numMFcpp/cpp/tests/src/chapter3.cpp

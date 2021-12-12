@@ -294,6 +294,54 @@ src/bsModel01.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/bsModel01.cpp.s
 .PHONY : src/bsModel01.cpp.s
 
+src/bsModel02.o: src/bsModel02.cpp.o
+.PHONY : src/bsModel02.o
+
+# target to build an object file
+src/bsModel02.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/bsModel02.cpp.o
+.PHONY : src/bsModel02.cpp.o
+
+src/bsModel02.i: src/bsModel02.cpp.i
+.PHONY : src/bsModel02.i
+
+# target to preprocess a source file
+src/bsModel02.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/bsModel02.cpp.i
+.PHONY : src/bsModel02.cpp.i
+
+src/bsModel02.s: src/bsModel02.cpp.s
+.PHONY : src/bsModel02.s
+
+# target to generate assembly for a file
+src/bsModel02.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/bsModel02.cpp.s
+.PHONY : src/bsModel02.cpp.s
+
+src/contGmtrAsianCall.o: src/contGmtrAsianCall.cpp.o
+.PHONY : src/contGmtrAsianCall.o
+
+# target to build an object file
+src/contGmtrAsianCall.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/contGmtrAsianCall.cpp.o
+.PHONY : src/contGmtrAsianCall.cpp.o
+
+src/contGmtrAsianCall.i: src/contGmtrAsianCall.cpp.i
+.PHONY : src/contGmtrAsianCall.i
+
+# target to preprocess a source file
+src/contGmtrAsianCall.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/contGmtrAsianCall.cpp.i
+.PHONY : src/contGmtrAsianCall.cpp.i
+
+src/contGmtrAsianCall.s: src/contGmtrAsianCall.cpp.s
+.PHONY : src/contGmtrAsianCall.s
+
+# target to generate assembly for a file
+src/contGmtrAsianCall.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/contGmtrAsianCall.cpp.s
+.PHONY : src/contGmtrAsianCall.cpp.s
+
 src/defInt.o: src/defInt.cpp.o
 .PHONY : src/defInt.o
 
@@ -341,6 +389,30 @@ src/digitals.s: src/digitals.cpp.s
 src/digitals.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/digitals.cpp.s
 .PHONY : src/digitals.cpp.s
+
+src/eurBasketCall.o: src/eurBasketCall.cpp.o
+.PHONY : src/eurBasketCall.o
+
+# target to build an object file
+src/eurBasketCall.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/eurBasketCall.cpp.o
+.PHONY : src/eurBasketCall.cpp.o
+
+src/eurBasketCall.i: src/eurBasketCall.cpp.i
+.PHONY : src/eurBasketCall.i
+
+# target to preprocess a source file
+src/eurBasketCall.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/eurBasketCall.cpp.i
+.PHONY : src/eurBasketCall.cpp.i
+
+src/eurBasketCall.s: src/eurBasketCall.cpp.s
+.PHONY : src/eurBasketCall.s
+
+# target to generate assembly for a file
+src/eurBasketCall.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/eurBasketCall.cpp.s
+.PHONY : src/eurBasketCall.cpp.s
 
 src/eurCall.o: src/eurCall.cpp.o
 .PHONY : src/eurCall.o
@@ -726,6 +798,54 @@ src/pathDepOptions02.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/pathDepOptions02.cpp.s
 .PHONY : src/pathDepOptions02.cpp.s
 
+src/pathDepOptions03.o: src/pathDepOptions03.cpp.o
+.PHONY : src/pathDepOptions03.o
+
+# target to build an object file
+src/pathDepOptions03.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/pathDepOptions03.cpp.o
+.PHONY : src/pathDepOptions03.cpp.o
+
+src/pathDepOptions03.i: src/pathDepOptions03.cpp.i
+.PHONY : src/pathDepOptions03.i
+
+# target to preprocess a source file
+src/pathDepOptions03.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/pathDepOptions03.cpp.i
+.PHONY : src/pathDepOptions03.cpp.i
+
+src/pathDepOptions03.s: src/pathDepOptions03.cpp.s
+.PHONY : src/pathDepOptions03.s
+
+# target to generate assembly for a file
+src/pathDepOptions03.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/pathDepOptions03.cpp.s
+.PHONY : src/pathDepOptions03.cpp.s
+
+src/sumEuroCalls.o: src/sumEuroCalls.cpp.o
+.PHONY : src/sumEuroCalls.o
+
+# target to build an object file
+src/sumEuroCalls.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/sumEuroCalls.cpp.o
+.PHONY : src/sumEuroCalls.cpp.o
+
+src/sumEuroCalls.i: src/sumEuroCalls.cpp.i
+.PHONY : src/sumEuroCalls.i
+
+# target to preprocess a source file
+src/sumEuroCalls.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/sumEuroCalls.cpp.i
+.PHONY : src/sumEuroCalls.cpp.i
+
+src/sumEuroCalls.s: src/sumEuroCalls.cpp.s
+.PHONY : src/sumEuroCalls.s
+
+# target to generate assembly for a file
+src/sumEuroCalls.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numMFcpp.dir/build.make CMakeFiles/numMFcpp.dir/src/sumEuroCalls.cpp.s
+.PHONY : src/sumEuroCalls.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -754,12 +874,21 @@ help:
 	@echo "... src/bsModel01.o"
 	@echo "... src/bsModel01.i"
 	@echo "... src/bsModel01.s"
+	@echo "... src/bsModel02.o"
+	@echo "... src/bsModel02.i"
+	@echo "... src/bsModel02.s"
+	@echo "... src/contGmtrAsianCall.o"
+	@echo "... src/contGmtrAsianCall.i"
+	@echo "... src/contGmtrAsianCall.s"
 	@echo "... src/defInt.o"
 	@echo "... src/defInt.i"
 	@echo "... src/defInt.s"
 	@echo "... src/digitals.o"
 	@echo "... src/digitals.i"
 	@echo "... src/digitals.s"
+	@echo "... src/eurBasketCall.o"
+	@echo "... src/eurBasketCall.i"
+	@echo "... src/eurBasketCall.s"
 	@echo "... src/eurCall.o"
 	@echo "... src/eurCall.i"
 	@echo "... src/eurCall.s"
@@ -808,6 +937,12 @@ help:
 	@echo "... src/pathDepOptions02.o"
 	@echo "... src/pathDepOptions02.i"
 	@echo "... src/pathDepOptions02.s"
+	@echo "... src/pathDepOptions03.o"
+	@echo "... src/pathDepOptions03.i"
+	@echo "... src/pathDepOptions03.s"
+	@echo "... src/sumEuroCalls.o"
+	@echo "... src/sumEuroCalls.i"
+	@echo "... src/sumEuroCalls.s"
 .PHONY : help
 
 
